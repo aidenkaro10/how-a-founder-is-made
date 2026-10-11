@@ -823,7 +823,18 @@ async function startOpening() {
   // so reloading after that starts from the beginning again.
   const hash = location.hash.slice(1);
   if (location.hash) history.replaceState(null, '', location.pathname + location.search);
-  if (hash === 'skip') { introSong.el?.pause(); return finish('shira'); }
+  if (hash === 'skip') { introSong.el?.pause(); $('#hero')?.remove(); return finish('shira'); }
+
+  // 0. the title screen: a little pastel Israel. Scrolling (or "Play with sound") dives into
+  //    the kibbutz water tower, then the journal opening below takes over.
+  const heroEl = $('#hero');
+  if (heroEl) {
+    await new Promise((resolve) => {
+      import('./hero.js' + new URL(import.meta.url).search)
+        .then((m) => m.mountHero({ container: heroEl, onDone: resolve }))
+        .catch((err) => { console.info('Title screen skipped:', err?.message); heroEl.remove(); resolve(); });
+    });
+  }
 
   try {
     const mod = await import('./vault.js' + new URL(import.meta.url).search);
