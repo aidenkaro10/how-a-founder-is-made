@@ -768,12 +768,20 @@ function buildInk({ W, ppu, font, paths, rand }) {
     const linePause = 0.12;
     const total = metas.reduce((s, m) => s + (m.x1 - m.x0), 0);
     const speed = total / Math.max(0.2, t1 - t0 - linePause * (metas.length - 1)); // px per second
+    // each line only times its OWN letters (drawn alone on a scratch canvas), so a tall letter
+    // on the next line never shows up early just because it sits inside this line's box
+    const [, xLine] = canvas2d(W, H);
     let t = t0;
     for (const m of metas) {
-      const yA = Math.max(0, Math.floor(m.base - m.fs)), yB = Math.min(H - 1, Math.ceil(m.base + m.fs * 0.45));
+      const yA = Math.max(0, Math.floor(m.base - m.fs * 1.1)), yB = Math.min(H - 1, Math.ceil(m.base + m.fs * 0.45));
       const xA = Math.max(0, Math.floor(m.x0 - m.fs * 0.3)), xB = Math.min(W - 1, Math.ceil(m.x1 + m.fs * 0.3));
       const dur = (m.x1 - m.x0) / speed;
+      xLine.clearRect(0, 0, W, H);
+      xLine.font = `400 ${m.fs}px ${font}`; xLine.fillStyle = '#000'; xLine.textBaseline = 'alphabetic';
+      xLine.fillText(m.text, m.x0, m.base);
+      const alpha = xLine.getImageData(xA, yA, xB - xA + 1, yB - yA + 1).data;
       for (let y = yA; y <= yB; y++) for (let x = xA; x <= xB; x++) {
+        if (!alpha[((y - yA) * (xB - xA + 1) + (x - xA)) * 4 + 3]) continue;   // not part of this line
         const k = y * W + x, b = toByte(t + clamp((x - m.x0) / speed, 0, dur));
         if (b < R[k]) { R[k] = b; G[k] = 40; }
       }
