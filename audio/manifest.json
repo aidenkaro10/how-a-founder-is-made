@@ -641,6 +641,14 @@
       "text": "...מה?"
     },
     {
+      "file": "audio/16-exit-hava.mp3",
+      "at": 7.8,
+      "type": "sfx",
+      "duration": 28.8,
+      "volume": 0.35,
+      "note": "Hava Nagila, the user's own recording, hand-added"
+    },
+    {
       "file": "audio/16-exit-3.mp3",
       "at": 8.2,
       "type": "voice",
