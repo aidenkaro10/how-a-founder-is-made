@@ -781,8 +781,8 @@ function startIntroSong() {
   a.volume = 0.85;
   a.loop = true;               // still on the opening page when it ends? play it again
   a.currentTime = 0;
-  a.play().catch(() => {});
   introSong.el = a;
+  return a.play();             // resolves if the browser allowed sound, rejects if it blocked it
 }
 function fadeOutIntroSong(ms = 1800) {
   const a = introSong.el;
@@ -815,18 +815,27 @@ async function startOpening() {
   };
   let vault = null;
   // the opening song: try to autoplay right away. Most browsers block sound until the
-  // viewer interacts, so if that happens it starts on the first click or key press instead.
-  startIntroSong();
-  const kick = () => {
-    if (introSong.el && !introSong.el.paused) return cleanup();
-    introSong.el = null;               // the blocked attempt never started, try again now
-    startIntroSong();
-    cleanup();
+  // viewer clicks, taps or presses a key, so if that happens we try again on each of those
+  // and only stop listening once the song is really playing. (Phones count a tap when the
+  // finger lifts, so touchend and click are in the list too. A mouse-wheel scroll never counts.)
+  const KICK_EVENTS = ['pointerdown', 'pointerup', 'touchend', 'click', 'keydown'];
+  const cleanup = () => KICK_EVENTS.forEach((ev) => removeEventListener(ev, kick, true));
+  let trying = false;                  // one attempt at a time, so one click can't start two songs
+  const attempt = () => {
+    trying = true;
+    const p = startIntroSong();
+    if (!p) { trying = false; return; }
+    p.then(cleanup).catch(() => {
+      if (introSong.el?.paused) { introSong.el.src = ''; introSong.el = null; }   // blocked: drop it, try again on the next tap
+    }).finally(() => { trying = false; });
   };
-  function cleanup() { removeEventListener('pointerdown', kick, true); removeEventListener('keydown', kick, true); removeEventListener('touchstart', kick, true); }
-  addEventListener('pointerdown', kick, true);
-  addEventListener('keydown', kick, true);
-  addEventListener('touchstart', kick, true);
+  const kick = () => {
+    if (opened) return cleanup();
+    if (introSong.el && !introSong.el.paused) return cleanup();
+    if (!trying) attempt();
+  };
+  KICK_EVENTS.forEach((ev) => addEventListener(ev, kick, true));
+  attempt();
 
   // Every visit (and every reload) starts at the opening drawing.
   // Only shortcut left: #skip jumps past the opening while building. It's cleared right away,
