@@ -400,8 +400,9 @@ main { position: relative; z-index: 2; }
 .hero-info { position: absolute; left: clamp(24px, 4.5vw, 72px); bottom: clamp(28px, 5vh, 52px); max-width: 360px; pointer-events: none; }
 .hero-info p { margin: 0 0 8px; font-size: 16px; line-height: 1.5; color: #4a4553; }
 .hero-info small { font-size: 13px; color: #8a8494; }
-.hero-play { position: absolute; right: clamp(24px, 4.5vw, 72px); bottom: clamp(28px, 5vh, 52px); border: 0; cursor: pointer; padding: 16px 24px; border-radius: 999px; background: #24202b; color: #fff; font: 600 16px var(--body); box-shadow: 0 10px 24px rgba(36,32,43,.25); transition: transform .2s ease, background .2s ease; }
-.hero-play:hover { transform: translateY(-2px); background: #e9897a; }
+.hero-play { position: absolute; left: 50%; bottom: clamp(36px, 8vh, 80px); transform: translateX(-50%); border: 0; cursor: pointer; padding: 20px 34px; border-radius: 999px; background: #24202b; color: #fff; font: 600 19px var(--body); box-shadow: 0 14px 34px rgba(36,32,43,.3); transition: background .2s ease, box-shadow .2s ease; animation: heroPulse 2.4s ease-in-out infinite; }
+.hero-play:hover { background: #e9897a; }
+@keyframes heroPulse { 50% { box-shadow: 0 14px 34px rgba(36,32,43,.3), 0 0 0 10px rgba(255,255,255,.35); } }
 .hero-play span { margin-left: 8px; font-size: 11px; }
 .hero-fact { position: absolute; right: clamp(24px, 6vw, 110px); top: clamp(76px, 12vh, 120px); z-index: 2; max-width: 290px; padding: 12px 16px; border-radius: 16px; background: rgba(255,255,255,.9); box-shadow: 0 14px 34px rgba(60,40,80,.14); pointer-events: none; transition: opacity .3s ease, transform .3s ease; }
 .hero-fact.swap { opacity: 0; transform: translateY(-6px); }

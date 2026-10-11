@@ -6,8 +6,8 @@
 //     shape is always exactly right. The map image is laid on top of it like a sticker.
 //   - A strip of the Mediterranean (from the same image) sits along the coast, a bit lower.
 //   - It all sits on a Jerusalem stone floor (assets/hero/stone.jpg).
-// Scrolling (or "Play with sound") flies the camera down to the Tel Aviv coast, then fades into
-// a short AI clip (assets/hero/flyin.mp4) that the scroll scrubs through: over the beach, between
+// Clicking "Play with sound" flies the camera down to the Tel Aviv coast, then fades into
+// a short AI clip (assets/hero/flyin.mp4) that plays through: over the beach, between
 // the towers, down to Shira's kibbutz water tower. Then it hands over to the journal (js/vault.js).
 //
 //   mountHero({ container, onPlay, onDone })
@@ -63,11 +63,10 @@ export function mountHero({ container, onPlay = () => {}, onDone = () => {} }) {
     <canvas class="hero-canvas" aria-hidden="true"></canvas>
     <video class="hero-coast" aria-hidden="true" muted playsinline preload="auto"></video>
     <button class="hero-play" type="button">Play with sound <span aria-hidden="true">▶</span></button>
-    <div class="hero-scroll" aria-hidden="true"><i></i></div>
     <div class="hero-tip" aria-hidden="true"><b></b><span></span></div>
     <div class="hero-flash" aria-hidden="true"></div>`;
   const canvas = container.querySelector('.hero-canvas');
-  const fade = container.querySelectorAll('.hero-scroll, .hero-play');
+  const fade = container.querySelectorAll('.hero-play');
   const flash = container.querySelector('.hero-flash');
   const coastEl = container.querySelector('.hero-coast');
   coastEl.poster = `${base}assets/hero/flyin-first.jpg`;
@@ -232,7 +231,7 @@ export function mountHero({ container, onPlay = () => {}, onDone = () => {} }) {
     world.rotation.y = Math.sin(t * 0.22) * 0.035 * (1 - k);
     fade.forEach((el) => {
       el.style.opacity = String(Math.max(0, Math.min(ik * 1.6 - 0.6, 1 - p * 4)));
-      el.style.transform = `${el.classList.contains('hero-scroll') ? 'translateX(-50%) ' : ''}translateY(${(-p * 60).toFixed(1)}px)`;
+      el.style.transform = `translateX(-50%) translateY(${(-p * 60).toFixed(1)}px)`;
     });
     // fade into the fly-in clip, then the scroll position picks the clip's frame
     coastEl.style.opacity = String(THREE.MathUtils.clamp((p - 0.46) / 0.1, 0, 1));
@@ -259,25 +258,20 @@ export function mountHero({ container, onPlay = () => {}, onDone = () => {} }) {
   }
   raf = requestAnimationFrame(frame);
 
-  // ---------- input: scroll, swipe, keys, the button ----------
-  const onWheel = (e) => { e.preventDefault(); prime(); if (!auto) target = Math.min(1, Math.max(0, target + e.deltaY / 1600)); };
-  let ty = null;
-  const onTouchStart = (e) => { ty = e.touches[0].clientY; prime(); };
-  const onTouchMove = (e) => { if (ty == null) return; const dy = ty - e.touches[0].clientY; ty = e.touches[0].clientY; target = Math.min(1, Math.max(0, target + dy / 800)); };
-  const onKey = (e) => {
-    if (['ArrowDown', 'PageDown', ' ', 'Enter'].includes(e.key)) { e.preventDefault(); target = Math.min(1, target + 0.2); }
-    if (['ArrowUp', 'PageUp'].includes(e.key)) target = Math.max(0, target - 0.2);
-  };
-  addEventListener('wheel', onWheel, { passive: false });
-  addEventListener('touchstart', onTouchStart, { passive: true });
-  addEventListener('touchmove', onTouchMove, { passive: true });
-  addEventListener('keydown', onKey);
-  container.querySelector('.hero-play').addEventListener('click', () => { prime(); onPlay(); auto = true; });
+  // ---------- input: only the Play button starts the trip (the click is also what lets the music play) ----------
+  const playBtn = container.querySelector('.hero-play');
+  playBtn.addEventListener('click', () => { if (auto) return; prime(); onPlay(); auto = true; playBtn.disabled = true; });
+  playBtn.focus({ preventScroll: true });
+  // while the title screen is up, scrolling does nothing (so the page behind it doesn't move)
+  const block = (e) => e.preventDefault();
+  const blockKeys = (e) => { if (['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Home', 'End'].includes(e.key)) e.preventDefault(); };
+  addEventListener('wheel', block, { passive: false });
+  addEventListener('touchmove', block, { passive: false });
+  addEventListener('keydown', blockKeys);
 
   function finish() {
     done = true;
-    removeEventListener('wheel', onWheel); removeEventListener('touchstart', onTouchStart);
-    removeEventListener('touchmove', onTouchMove); removeEventListener('keydown', onKey); removeEventListener('pointermove', onMove);
+    removeEventListener('pointermove', onMove); removeEventListener('wheel', block); removeEventListener('touchmove', block); removeEventListener('keydown', blockKeys);
     onDone();
     container.style.transition = 'opacity .9s ease';
     container.style.opacity = '0';
