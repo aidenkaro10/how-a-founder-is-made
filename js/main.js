@@ -761,6 +761,31 @@ function fadeMusic(dt) {
 // =====================================================================
 //  The opening (storybook + key). Lives in js/vault.js.
 // =====================================================================
+// The opening song: plays from the viewer's first click on the opening page
+// (browsers block sound before a click) until the film starts, then fades out
+// just as "I was born on a kibbutz" begins.
+const introSong = { el: null };
+function startIntroSong() {
+  if (introSong.el || opened) return;
+  const a = new Audio('audio/intro.mp3');
+  a.volume = 0.85;
+  a.loop = true;               // still on the opening page when it ends? play it again
+  a.currentTime = 0;
+  a.play().catch(() => {});
+  introSong.el = a;
+}
+function fadeOutIntroSong(ms = 1800) {
+  const a = introSong.el;
+  if (!a) return;
+  const from = a.volume, t0 = performance.now();
+  const step = (now) => {
+    const k = Math.min(1, (now - t0) / ms);
+    a.volume = from * (1 - k);
+    if (k < 1) requestAnimationFrame(step); else a.pause();
+  };
+  requestAnimationFrame(step);
+}
+
 async function startOpening() {
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';   // never resume mid-film on reload
   window.scrollTo(0, 0);
@@ -768,6 +793,7 @@ async function startOpening() {
   const finish = (path) => {
     if (opened) return;
     opened = true;
+    fadeOutIntroSong();
     buildFilm(path === 'omer' ? 'omer' : 'shira');   // the film follows Shira
     document.body.classList.remove('is-locked');
     document.body.classList.add('film-on');
@@ -778,6 +804,10 @@ async function startOpening() {
     setTimeout(() => { container.remove(); vault?.destroy?.(); }, 1200);
   };
   let vault = null;
+  // first click or key on the opening page starts the song (only once)
+  const kick = () => { startIntroSong(); removeEventListener('pointerdown', kick, true); removeEventListener('keydown', kick, true); };
+  addEventListener('pointerdown', kick, true);
+  addEventListener('keydown', kick, true);
 
   // Every visit (and every reload) starts at the opening drawing.
   // Only shortcut left: #skip jumps past the opening while building. It's cleared right away,

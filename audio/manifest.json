@@ -641,6 +641,14 @@
       "text": "...מה?"
     },
     {
+      "file": "audio/16-exit-hava.mp3",
+      "at": 7.8,
+      "type": "sfx",
+      "duration": 20.04,
+      "volume": 0.3,
+      "note": "Hava Nagila chorus, hand-added (made with ElevenLabs Music), not from shots.json"
+    },
+    {
       "file": "audio/16-exit-3.mp3",
       "at": 8.2,
       "type": "voice",
