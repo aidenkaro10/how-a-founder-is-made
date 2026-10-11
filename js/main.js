@@ -136,6 +136,16 @@ function buildSegments(path) {
 // =====================================================================
 //  Layers (what's drawn on the stage)
 // =====================================================================
+// a taped photo failed to load (bad connection, or the site was mid-update): try twice more,
+// then show the blank pastel card
+window.retryPhoto = (img) => {
+  const n = Number(img.dataset.tries || 0) + 1;
+  img.dataset.tries = n;
+  if (n > 2) { img.parentElement.classList.add('empty'); return; }
+  const src = img.getAttribute('src').split('?')[0];
+  setTimeout(() => { img.src = `${src}?retry=${n}`; }, 900 * n);
+};
+
 function buildLayers() {
   const stage = $('#stage');
   const caps = $('#captions');
@@ -153,7 +163,7 @@ function buildLayers() {
       el.innerHTML = `
         <div class="paper ${pg.style === 'credits' ? 'pastel' : ''}">
           <figure class="taped ${pg.map ? 'is-map' : ''}">
-            <div class="snap"><img alt="" src="${pg.photo}" onerror="this.parentElement.classList.add('empty')">${pg.map ? '<svg class="circle" viewBox="0 0 100 70" aria-hidden="true"><path pathLength="1" d="M52 6 C80 4 97 20 94 37 C91 57 66 66 44 64 C20 62 4 50 6 33 C8 16 28 6 58 9"/></svg>' : ''}</div>
+            <div class="snap"><img alt="" src="${pg.photo}" onerror="retryPhoto(this)">${pg.map ? '<svg class="circle" viewBox="0 0 100 70" aria-hidden="true"><path pathLength="1" d="M52 6 C80 4 97 20 94 37 C91 57 66 66 44 64 C20 62 4 50 6 33 C8 16 28 6 58 9"/></svg>' : ''}</div>
             <span class="tape tl" data-base="rotate(-38deg)"></span><span class="tape br" data-base="rotate(-38deg)"></span>
           </figure>
           <div class="words">
@@ -184,7 +194,7 @@ function buildLayers() {
       el.innerHTML = `
         <div class="paper">
           <figure class="taped">
-            <div class="snap"><img alt="" src="clips/${seg.photo}.jpg" onerror="this.parentElement.classList.add('empty')"></div>
+            <div class="snap"><img alt="" src="clips/${seg.photo}.jpg" onerror="retryPhoto(this)"></div>
             <span class="tape tl" data-base="rotate(-38deg)"></span><span class="tape br" data-base="rotate(-38deg)"></span>
           </figure>
           <div class="words">
