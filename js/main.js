@@ -315,7 +315,14 @@ function render(sy) {
   // which segment is "current"?
   let cur = segments.findIndex((s) => sy >= s.start && sy < s.end);
   if (cur === -1) cur = sy >= totalPx ? last : 0;
-  if (cur !== currentIdx) { currentIdx = cur; onSegmentChange(segments[cur]); }
+  if (cur !== currentIdx) {
+    const prevIdx = currentIdx;
+    currentIdx = cur;
+    onSegmentChange(segments[cur]);
+    // a scene just handed over to its notebook page: play any narration that was timed
+    // right at the end of the clip and didn't get its turn yet (it carries on over the page)
+    if (cur === prevIdx + 1 && segments[cur].kind === 'page' && segments[prevIdx]?.kind === 'shot') flushCues(segments[prevIdx]);
+  }
 
   segments.forEach((seg, i) => {
     const near = Math.abs(i - cur) <= 2;
@@ -694,6 +701,21 @@ function fireCues(seg, storyT) {
     const a = new Audio(c.file);
     a.volume = c.volume ?? (c.type === 'sfx' ? 0.6 : 1);
     if (c.shake) shakeScreen(c.shake);                  // e.g. the siren: a short hard jolt
+    if (c.type === 'narration') { if (narrationEl) narrationEl.pause(); narrationEl = a; }
+    a.play().catch(() => {});
+  });
+}
+
+// Play the scene's cues that never fired because the scene ended first (moving forward only).
+function flushCues(seg) {
+  const cues = audioCues[seg.shot.id];
+  if (!cues || !soundOn) return;
+  cues.forEach((c, k) => {
+    const at = c.at + (seg.cueOffset || 0);
+    if (seg.fired.has(k) || at < seg.lastStory - 0.25) return;   // already played, or we were long past it
+    seg.fired.add(k);
+    const a = new Audio(c.file);
+    a.volume = c.volume ?? (c.type === 'sfx' ? 0.6 : 1);
     if (c.type === 'narration') { if (narrationEl) narrationEl.pause(); narrationEl = a; }
     a.play().catch(() => {});
   });
