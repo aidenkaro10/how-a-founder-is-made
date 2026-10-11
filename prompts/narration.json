@@ -1,0 +1,466 @@
+{
+ "narrators": {
+  "omer": {
+   "voice_hint": "Omer as an adult narrator: Israeli man, late 30s. Warm, slightly raspy, a little smoky, light Israeli accent in English, dry humor, laughs at himself. Real, unpolished and conversational, like telling a story to a friend at 1 a.m. NOT an announcer, trailer or audiobook voice. Hebrew words (Modiin, savta, Bissli, dugri, chutzpah, Tzofim, madrich, Yom HaZikaron, matkot, Technion, Bamba) said natively.",
+   "style_notes": "Wry, relaxed, laughs at himself. A memory, never a pitch. About 140 to 150 words per minute. Slow way down and go almost to a whisper for the siren and Yom HaZikaron shots, and for the last three lines."
+  },
+  "shira": {
+   "voice_hint": "Shira as an adult narrator: Israeli woman, late 30s, grew up on a kibbutz. Low-ish warm voice, light Israeli accent in English, direct and funny, a little husky. Real, unpolished and conversational, like telling a story to a friend. NOT an announcer, trailer or audiobook voice. Hebrew words (kibbutz, Dalia, dugri, Yom HaZikaron, achi, tachles, Bamba) said natively.",
+   "style_notes": "Dry, direct, warm underneath. A memory, never a pitch. About 140 to 150 words per minute. Slow way down and go almost to a whisper for the siren and Yom HaZikaron shots, and for the last three lines."
+  }
+ },
+ "style_notes": "A memory, never a pitch. Talk, don't announce, about 140 to 150 words per minute. Lift into the jokes, slow way down for the sirens and Yom HaZikaron (almost a whisper there), and for the last three lines. Each line has a 'path': the viewer picks Omer or Shira at the start and only hears that path's lines. Childhood shots only exist in their own path; shared shots (06-draft onward) have one line set per path. Audio tags are ElevenLabs v3 tags; drop them if the model reads them aloud. 'at' is seconds from the moment that shot starts. Gaps are on purpose: the in-scene character lines in shots.json are timed to land in them, the same for both paths. Lines can run past the end of a clip, so hold or loop the clip while they finish. Duck clip audio about 8 dB under narration. Shot 'ending' is the closing section after 17-mentor (company cards, stats, the Musk quote). 'shot_seconds' = how long each shot must stay on screen on each path so its narration finishes; hold or loop the clip until then. Hard numbers live in the site's margin notes, so the narration only carries the ones that feel lived.",
+ "lines": [
+  {
+   "path": "omer",
+   "shot": "00-book-modiin",
+   "text": "[softly] I grew up in Modiin. White stone, parks, too many roundabouts.",
+   "at": 0.7,
+   "pause_after": 0.4
+  },
+  {
+   "path": "omer",
+   "shot": "00-book-modiin",
+   "text": "Honestly? Our company started way before the company.",
+   "at": 5.7,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "01-classroom",
+   "text": "Rinat loved that question. My mom calls it chutzpah. [laughs] Not always as a compliment.",
+   "at": 4.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "02-makolet",
+   "text": "One toss. I got one toss. [laughs] Nobody was offended. That's dugri. You just say the thing.",
+   "at": 3.1,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "03-siren",
+   "text": "Summers at my savta's in Sderot.",
+   "at": 3.3,
+   "pause_after": 0.2
+  },
+  {
+   "path": "omer",
+   "shot": "03-siren",
+   "text": "You get about fifteen seconds. I counted once. I got to nine.",
+   "at": 6.0,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "04-shelter",
+   "text": "Inside, Bissli and cards. I held my cousin's hand like I wasn't scared.",
+   "at": 0.2,
+   "pause_after": 0.2
+  },
+  {
+   "path": "omer",
+   "shot": "04-shelter",
+   "text": "Then the door opened...",
+   "at": 8.1,
+   "pause_after": 0.1
+  },
+  {
+   "path": "omer",
+   "shot": "04-shelter",
+   "text": "[laughs] and we went right back outside.",
+   "at": 9.8,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "04b-zikaron",
+   "text": "[softly] On Yom HaZikaron, the whole country stops. Two minutes. People get out of their cars and just stand there.",
+   "at": 1.2,
+   "pause_after": 1.0
+  },
+  {
+   "path": "omer",
+   "shot": "04b-zikaron",
+   "text": "My dad didn't say a word. In six years, it would be me.",
+   "at": 10.1,
+   "pause_after": 0.8
+  },
+  {
+   "path": "omer",
+   "shot": "05-scouts",
+   "text": "Fifteen, a madrich in the Tzofim. Managing people before I could drive.",
+   "at": 0.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "06-draft",
+   "text": "Eighteen. Almost everyone goes. Thirty-two months for me.",
+   "at": 0.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "06-draft",
+   "text": "[softly] I walked right past her. No idea.",
+   "at": 3.8,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "06b-basic",
+   "text": "Combat basic. Three a.m., a stretcher, my whole squad under it.",
+   "at": 7.2,
+   "pause_after": 0.2
+  },
+  {
+   "path": "omer",
+   "shot": "06b-basic",
+   "text": "You learn you can keep going way past quitting. And that nobody finishes alone.",
+   "at": 12.0,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "07-selection",
+   "text": "Up north, a kibbutz girl I hadn't met was getting into eighty-two hundred. Cyber. Intelligence.",
+   "at": 0.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "08-ops-room",
+   "text": "Nineteen, three a.m., running a live system. Her friends abroad were picking majors.",
+   "at": 0.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "08b-tank",
+   "text": "Me? Golan Heights. Tech guy for a tank crew.",
+   "at": 0.2,
+   "pause_after": 0.2
+  },
+  {
+   "path": "omer",
+   "shot": "08b-tank",
+   "text": "Something's dead before a dawn exercise, and it's on you.",
+   "at": 4.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "09-briefing",
+   "text": "Dawn briefing on the hood of a jeep.",
+   "at": 6.2,
+   "pause_after": 0.2
+  },
+  {
+   "path": "omer",
+   "shot": "09-briefing",
+   "text": "Way lower rank. He handed me the marker anyway.",
+   "at": 9.7,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "10-debrief",
+   "text": "Her unit debriefed everything. Say it, fix it, move on.",
+   "at": 0.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "11-hill",
+   "text": "Those people became her cofounders and investors. The four Wiz founders came out of eighty-two hundred together too.",
+   "at": 0.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "12-trek",
+   "text": "After the army, about a third of us just leave. South America. Matkot, obviously.",
+   "at": 4.5,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "12b-amazon",
+   "text": "No money, no plan. You get good at improvising.",
+   "at": 3.0,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "13-campus",
+   "text": "Then the Technion. And one weekend, a hackathon in Tel Aviv.",
+   "at": 5.3,
+   "pause_after": 0.2
+  },
+  {
+   "path": "omer",
+   "shot": "13-campus",
+   "text": "[laughs] I argued with a girl from the other team for an hour. By morning we'd merged teams. That was Shira.",
+   "at": 10.1,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "14-apartment",
+   "text": "Twenty-seven. Me, Shira, Noam, Lena, one tiny apartment. The money was there partly thanks to Yozma. In nineteen ninety-three the government put a hundred million dollars into ten venture funds and basically started an industry.",
+   "at": 0.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "15-fail",
+   "text": "Our first company died. [sighs] Beach till two a.m.",
+   "at": 0.2,
+   "pause_after": 0.2
+  },
+  {
+   "path": "omer",
+   "shot": "15-fail",
+   "text": "Here, failing isn't the end of you. A World Economic Forum report says Israel accepts it more than anywhere. So we went again.",
+   "at": 3.7,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "16-exit",
+   "text": "Round two worked.",
+   "at": 0.2,
+   "pause_after": 0.2
+  },
+  {
+   "path": "omer",
+   "shot": "16-exit",
+   "text": "[excited] One text, and the office lost its mind. We weren't the first. We won't be the last.",
+   "at": 4.7,
+   "pause_after": 0.3
+  },
+  {
+   "path": "omer",
+   "shot": "17-mentor",
+   "text": "Shira mentors kids now. I bring the Bamba.",
+   "at": 0.2,
+   "pause_after": 0.2
+  },
+  {
+   "path": "omer",
+   "shot": "17-mentor",
+   "text": "[softly] Six-year-old me would have loved her.",
+   "at": 7.5,
+   "pause_after": 0.8
+  },
+  {
+   "path": "omer",
+   "shot": "ending",
+   "text": "There's no single reason. A kid here just spends twenty years practicing to be a founder before ever starting a company.",
+   "at": 0.2,
+   "pause_after": 0.6
+  },
+  {
+   "path": "omer",
+   "shot": "ending",
+   "text": "Elon Musk said it once, and my mom won't stop quoting it. Innovation per capita, Israel must be number one by far in the world.",
+   "at": 9.5,
+   "pause_after": 0.7
+  },
+  {
+   "path": "omer",
+   "shot": "ending",
+   "text": "[softly] Me? I'm still the kid asking why.",
+   "at": 20.7,
+   "pause_after": 0.0
+  },
+  {
+   "path": "shira",
+   "shot": "00k-book-kibbutz",
+   "text": "[warmly] I was born on a kibbutz up north. Cows, orchards, a water tower, and about four hundred people who all thought they could raise me. [laughs] Tachles? They were right.",
+   "at": -2.0,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "01k-classroom",
+   "text": "I was six. Dalia was explaining something about cows and water, and it didn't add up. So I screamed... [shouting] WHY? [beat] I wasn't scared. [firmly] In Israel, people aren't afraid to speak up when something isn't right. [warmly] We call it chutzpah.",
+   "at": 6.5,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "02k-dining-hall",
+   "text": "[laughs] On a kibbutz, everyone argues about everything. So at nine, I stood on a bench and told the whole room they were wrong. [beat] In Israel, you just say it straight.",
+   "at": 7.6,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "03k-siren",
+   "text": "[softly] Ten years old, at the pool. Then the siren. [beat] I didn't freeze. I grabbed the little kid next to me and ran. In Israel, you learn that before you learn two plus two.",
+   "at": 5.9,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "04k-shelter",
+   "text": "[softly] Inside, it was hot and crowded, and someone always had cards. We played and waited for the boom. [firmly] Survival mode is instilled very early on.",
+   "at": 10.3,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "04bk-zikaron",
+   "text": "[softly] [sad] Once a year, the whole country stops. Even the cars on the highway. [beat] I stood next to my mom and read the names. [crying] Some I knew. [softly] And I understood: in six years, it's my turn.",
+   "at": 2.6,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "05k-drip",
+   "text": "[laughs] At fifteen I was in charge of twelve kids and a broken irrigation line. Nobody came to fix it. [firmly] On a kibbutz, you don't wait. Yalla, you fix it yourself.",
+   "at": 4.0,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "06-draft",
+   "text": "[warmly] At eighteen, almost everyone goes to the army. [firmly] From rich kids to kibbutz kids, everyone serves together.",
+   "at": 7.9,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "07-selection",
+   "text": "They didn't care where I grew up. Only how I think. [excited] Unit 8200, cyber and intelligence. Israel trusts teenagers with things most countries wouldn't trust adults with.",
+   "at": 5.5,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "08-ops-room",
+   "text": "[softly] Three in the morning. A live system, and I'm nineteen and in charge. [beat] Most people my age are partying in college. I was learning to lead when it matters.",
+   "at": 8.2,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "10-debrief",
+   "text": "After every mission, we sat in a circle. I told my commander the mistake was hers. She said \"true\" and wrote it down. [firmly] In Israel, the best idea wins, not the highest rank.",
+   "at": 8.0,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "11-hill",
+   "text": "[warmly] These people became my family. My achim. We went through so much hardship together. They're my future cofounders, my first hires, my first investors. [beat] In Israel, your army unit doesn't last just three years, they're your brothers and sisters for life.",
+   "at": 2.8,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "12-trek",
+   "text": "[laughs] After the army, every Israeli disappears. HaTiyul HaGadol. The big trip. [beat] So there I was above Machu Picchu, slamming shesh besh. A tourist asked where we were from. [firmly] When your country always has to defend itself, you say it proudly.",
+   "at": 7.6,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "12b-amazon",
+   "text": "[excited] No money, no plan, a boat held together with tape, and a snake. [laughs] Total balagan. [beat] We always figured it out. That trip taught me risk isn't scary. It's how things start.",
+   "at": 7.4,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "13-campus",
+   "text": "[laughs] At a hackathon in Tel Aviv, I argued with a curly-haired guy for an hour. Loudly. [beat] By morning, he said \"tachles, yours is better.\" That's how I met Omer. In Israel, the person you fight with today can be your partner tomorrow.",
+   "at": 8.0,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "14-apartment",
+   "text": "[warmly] Back home, I started a company with my friend Omer. I drew a safe little circle. He drew one ten times bigger. [beat] He wasn't scared. [firmly] Israel started as a crazy dream too. Im tirtzu, ein zo agada. If you will it, it's no dream.",
+   "at": 6.6,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "15-fail",
+   "text": "[softly] Our first company failed. Completely. [beat] We sat on the beach, ate garinim, and laughed about it. [firmly] In Israel, failing isn't the end. Yalla. Round two.",
+   "at": 12.4,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "16-exit",
+   "text": "[excited] Years later, one phone call. [shouting] We got the exit! [laughs] The office lifted me up in a chair like it was a wedding. [warmly] We weren't the first Israelis to do this. We won't be the last.",
+   "at": 12.6,
+   "pause_after": 0.3
+  },
+  {
+   "path": "shira",
+   "shot": "17-mentor",
+   "text": "[softly] Now I'm the one at the front of the class. [beat] And a little girl in the first row just asked why. [warmly] It starts all over again.",
+   "at": 7.6,
+   "pause_after": 0.3
+  }
+ ],
+ "shot_seconds": {
+  "omer": {
+   "00-book-modiin": 9.6,
+   "01-classroom": 10.6,
+   "02-makolet": 10.3,
+   "03-siren": 11.6,
+   "04-shelter": 12.9,
+   "04b-zikaron": 16.6,
+   "05-scouts": 5.8,
+   "06-draft": 8.3,
+   "06b-basic": 18.4,
+   "07-selection": 7.0,
+   "08-ops-room": 6.2,
+   "08b-tank": 8.9,
+   "09-briefing": 14.0,
+   "10-debrief": 5.3,
+   "11-hill": 8.3,
+   "12-trek": 10.9,
+   "12b-amazon": 7.3,
+   "13-campus": 19.1,
+   "14-apartment": 15.4,
+   "15-fail": 13.9,
+   "16-exit": 12.4,
+   "17-mentor": 11.1,
+   "ending": 23.9
+  },
+  "shira": {
+   "00k-book-kibbutz": 12.9,
+   "01k-classroom": 13.0,
+   "02k-dining-hall": 14.5,
+   "03k-siren": 11.2,
+   "04k-shelter": 8.5,
+   "04bk-zikaron": 15.0,
+   "05k-drip": 7.9,
+   "06-draft": 11.5,
+   "06b-basic": 9.1,
+   "07-selection": 7.9,
+   "08-ops-room": 6.2,
+   "08b-tank": 8.3,
+   "09-briefing": 14.0,
+   "10-debrief": 6.6,
+   "11-hill": 8.3,
+   "12k-bangkok": 8.9,
+   "12kb-island": 5.4,
+   "13-campus": 17.0,
+   "14-apartment": 15.4,
+   "15-fail": 13.9,
+   "16-exit": 12.4,
+   "17-mentor": 10.6,
+   "ending": 25.1
+  }
+ }
+}

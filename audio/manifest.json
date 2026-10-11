@@ -1,0 +1,709 @@
+{
+  "00k-book-kibbutz": [
+    {
+      "file": "audio/narration/shira/00k-book-kibbutz-1.mp3",
+      "at": -2.0,
+      "type": "narration",
+      "duration": 11.12,
+      "text": "[warmly] I was born on a kibbutz up north. Cows, orchards, a water tower, and about four hundred people who all thought they could raise me. [laughs] Tachles? They were right.",
+      "pause_after": 0.3,
+      "path": "shira"
+    },
+    {
+      "file": "audio/00k-book-kibbutz-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0
+    }
+  ],
+  "01k-classroom": [
+    {
+      "file": "audio/01k-classroom-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0
+    },
+    {
+      "file": "audio/01k-classroom-1.mp3",
+      "at": 2.0,
+      "type": "voice",
+      "duration": 1.2,
+      "who": "shira_kid",
+      "text": "[shouting] !למה?"
+    },
+    {
+      "file": "audio/01k-classroom-2.mp3",
+      "at": 3.4,
+      "type": "voice",
+      "duration": 2.8,
+      "who": "dalia_teacher",
+      "text": "שאלה מצוינת. בואי נחשוב."
+    },
+    {
+      "file": "audio/narration/shira/01k-classroom-1.mp3",
+      "at": 6.5,
+      "type": "narration",
+      "duration": 17.28,
+      "text": "I was six. Dalia was explaining something about cows and water, and it didn't add up. So I screamed... [shouting] WHY? [beat] I wasn't scared. [firmly] In Israel, people aren't afraid to speak up when something isn't right. [warmly] We call it chutzpah.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "02k-dining-hall": [
+    {
+      "file": "audio/02k-dining-hall-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0
+    },
+    {
+      "file": "audio/02k-dining-hall-1.mp3",
+      "at": 1.0,
+      "type": "voice",
+      "duration": 1.92,
+      "who": "shira_kid",
+      "text": "!אבל זה לא הגיוני"
+    },
+    {
+      "file": "audio/02k-dining-hall-2.mp3",
+      "at": 4.8,
+      "type": "voice",
+      "duration": 2.4,
+      "who": "kibbutz_member",
+      "text": "[laughing] !היא צודקת"
+    },
+    {
+      "file": "audio/narration/shira/02k-dining-hall-1.mp3",
+      "at": 7.6,
+      "type": "narration",
+      "duration": 12.72,
+      "text": "[laughs] On a kibbutz, everyone argues about everything. So at nine, I stood on a bench and told the whole room they were wrong. [beat] In Israel, you just say it straight.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "03k-siren": [
+    {
+      "file": "audio/03k-siren-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0
+    },
+    {
+      "file": "audio/03k-siren-3.mp3",
+      "at": 0.3,
+      "type": "voice",
+      "duration": 2.08,
+      "who": "shira_kid",
+      "text": "[screaming] !מהר! מהר"
+    },
+    {
+      "file": "audio/03k-siren-sfx-2.mp3",
+      "at": 0.5,
+      "type": "sfx",
+      "duration": 5.0,
+      "volume": 1.0,
+      "shake": 1.2
+    },
+    {
+      "file": "audio/03k-siren-1.mp3",
+      "at": 1.4,
+      "type": "voice",
+      "duration": 2.96,
+      "who": "pa_announcer",
+      "text": "צבע אדום. צבע אדום."
+    },
+    {
+      "file": "audio/03k-siren-2.mp3",
+      "at": 2.8,
+      "type": "voice",
+      "duration": 1.84,
+      "who": "lifeguard",
+      "text": "[shouting] !כולם למקלט, מהר"
+    },
+    {
+      "file": "audio/narration/shira/03k-siren-1.mp3",
+      "at": 5.9,
+      "type": "narration",
+      "duration": 12.72,
+      "text": "[softly] Ten years old, at the pool. Then the siren. [beat] I didn't freeze. I grabbed the little kid next to me and ran. In Israel, you learn that before you learn two plus two.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "04bk-zikaron": [
+    {
+      "file": "audio/04bk-zikaron-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 10.02,
+      "volume": 1.0
+    },
+    {
+      "file": "audio/narration/shira/04bk-zikaron-1.mp3",
+      "at": 2.6,
+      "type": "narration",
+      "duration": 15.2,
+      "text": "[softly] [sad] Once a year, the whole country stops. Even the cars on the highway. [beat] I stood next to my mom and read the names. [crying] Some I knew. [softly] And I understood: in six years, it's my turn.",
+      "pause_after": 0.3,
+      "path": "shira"
+    },
+    {
+      "file": "audio/04bk-zikaron-sfx-2.mp3",
+      "at": 8.8,
+      "type": "sfx",
+      "duration": 5.0
+    }
+  ],
+  "04k-shelter": [
+    {
+      "file": "audio/04k-shelter-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 6.0
+    },
+    {
+      "file": "audio/04k-shelter-sfx-2.mp3",
+      "at": 3.0,
+      "type": "sfx",
+      "duration": 3.0,
+      "volume": 0.9,
+      "shake": 0.6
+    },
+    {
+      "file": "audio/04k-shelter-1.mp3",
+      "at": 5.3,
+      "type": "voice",
+      "duration": 1.36,
+      "who": "older_kid",
+      "text": "!אפשר לצאת"
+    },
+    {
+      "file": "audio/04k-shelter-sfx-3.mp3",
+      "at": 6.6,
+      "type": "sfx",
+      "duration": 2.48
+    },
+    {
+      "file": "audio/04k-shelter-2.mp3",
+      "at": 7.7,
+      "type": "voice",
+      "duration": 1.6,
+      "who": "pool_boy",
+      "text": "[screaming] !יששששש"
+    },
+    {
+      "file": "audio/04k-shelter-sfx-4.mp3",
+      "at": 8.1,
+      "type": "sfx",
+      "duration": 4.48
+    },
+    {
+      "file": "audio/narration/shira/04k-shelter-1.mp3",
+      "at": 10.3,
+      "type": "narration",
+      "duration": 10.56,
+      "text": "[softly] Inside, it was hot and crowded, and someone always had cards. We played and waited for the boom. [firmly] Survival mode is instilled very early on.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "05k-drip": [
+    {
+      "file": "audio/05k-drip-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0,
+      "volume": 0.5
+    },
+    {
+      "file": "audio/05k-drip-sfx-2.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 3.0
+    },
+    {
+      "file": "audio/05k-drip-1.mp3",
+      "at": 0.9,
+      "type": "voice",
+      "duration": 2.08,
+      "who": "shira_teen",
+      "text": "!לא ככה! תביא לי את זה"
+    },
+    {
+      "file": "audio/05k-drip-sfx-3.mp3",
+      "at": 3.3,
+      "type": "sfx",
+      "duration": 2.48
+    },
+    {
+      "file": "audio/narration/shira/05k-drip-1.mp3",
+      "at": 4.0,
+      "type": "narration",
+      "duration": 12.08,
+      "text": "[laughs] At fifteen I was in charge of twelve kids and a broken irrigation line. Nobody came to fix it. [firmly] On a kibbutz, you don't wait. Yalla, you fix it yourself.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "06-draft": [
+    {
+      "file": "audio/06-draft-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0,
+      "volume": 0.5
+    },
+    {
+      "file": "audio/06-draft-1.mp3",
+      "at": 3.2,
+      "type": "voice",
+      "duration": 1.6,
+      "who": "shira_mom",
+      "text": "!תתקשרי כשאת מגיעה"
+    },
+    {
+      "file": "audio/06-draft-2.mp3",
+      "at": 5.2,
+      "type": "voice",
+      "duration": 2.24,
+      "who": "shira_soldier",
+      "text": "[sad] ...ביייייי אמאאאאא"
+    },
+    {
+      "file": "audio/narration/shira/06-draft-1.mp3",
+      "at": 7.9,
+      "type": "narration",
+      "duration": 7.28,
+      "text": "[warmly] At eighteen, almost everyone goes to the army. [firmly] From rich kids to kibbutz kids, everyone serves together.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "07-selection": [
+    {
+      "file": "audio/07-selection-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0,
+      "volume": 0.5
+    },
+    {
+      "file": "audio/07-selection-1.mp3",
+      "at": 2.0,
+      "type": "voice",
+      "duration": 2.32,
+      "who": "recruiter",
+      "text": "ברוכה הבאה לשמונה מאתיים."
+    },
+    {
+      "file": "audio/narration/shira/07-selection-1.mp3",
+      "at": 5.5,
+      "type": "narration",
+      "duration": 12.24,
+      "text": "They didn't care where I grew up. Only how I think. [excited] Unit 8200, cyber and intelligence. Israel trusts teenagers with things most countries wouldn't trust adults with.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "08-ops-room": [
+    {
+      "file": "audio/08-ops-room-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 5.48,
+      "volume": 0.5
+    },
+    {
+      "file": "audio/08-ops-room-1.mp3",
+      "at": 2.2,
+      "type": "voice",
+      "duration": 1.92,
+      "who": "shira_soldier",
+      "text": "!מצאתי! זה הקוד"
+    },
+    {
+      "file": "audio/08-ops-room-sfx-2.mp3",
+      "at": 5.0,
+      "type": "sfx",
+      "duration": 2.48
+    },
+    {
+      "file": "audio/08-ops-room-2.mp3",
+      "at": 6.5,
+      "type": "voice",
+      "duration": 1.2,
+      "who": "lena_soldier",
+      "text": "!כל הכבוד"
+    },
+    {
+      "file": "audio/narration/shira/08-ops-room-1.mp3",
+      "at": 8.2,
+      "type": "narration",
+      "duration": 11.44,
+      "text": "[softly] Three in the morning. A live system, and I'm nineteen and in charge. [beat] Most people my age are partying in college. I was learning to lead when it matters.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "10-debrief": [
+    {
+      "file": "audio/10-debrief-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0,
+      "volume": 0.4
+    },
+    {
+      "file": "audio/10-debrief-1.mp3",
+      "at": 0.4,
+      "type": "voice",
+      "duration": 1.36,
+      "who": "commander",
+      "text": "?מה לא עבד"
+    },
+    {
+      "file": "audio/10-debrief-2.mp3",
+      "at": 2.6,
+      "type": "voice",
+      "duration": 1.84,
+      "who": "shira_soldier",
+      "text": "הטעות הייתה שלך."
+    },
+    {
+      "file": "audio/10-debrief-3.mp3",
+      "at": 5.7,
+      "type": "voice",
+      "duration": 1.44,
+      "who": "commander",
+      "text": "נכון. תודה."
+    },
+    {
+      "file": "audio/10-debrief-sfx-2.mp3",
+      "at": 7.2,
+      "type": "sfx",
+      "duration": 1.48,
+      "volume": 0.8
+    },
+    {
+      "file": "audio/narration/shira/10-debrief-1.mp3",
+      "at": 8.0,
+      "type": "narration",
+      "duration": 12.96,
+      "text": "After every mission, we sat in a circle. I told my commander the mistake was hers. She said \"true\" and wrote it down. [firmly] In Israel, the best idea wins, not the highest rank.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "12-trek": [
+    {
+      "file": "audio/12-trek-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0,
+      "volume": 0.35
+    },
+    {
+      "file": "audio/12-trek-sfx-2.mp3",
+      "at": 0.4,
+      "type": "sfx",
+      "duration": 2.48,
+      "volume": 0.7
+    },
+    {
+      "file": "audio/12-trek-1.mp3",
+      "at": 0.5,
+      "type": "voice",
+      "duration": 1.2,
+      "who": "shira_young",
+      "text": "[shouting] !מארס"
+    },
+    {
+      "file": "audio/12-trek-2.mp3",
+      "at": 2.2,
+      "type": "voice",
+      "duration": 1.52,
+      "who": "trip_friend",
+      "text": "!אחי, עוד אחד"
+    },
+    {
+      "file": "audio/12-trek-3.mp3",
+      "at": 4.7,
+      "type": "voice",
+      "duration": 1.2,
+      "who": "shira_young",
+      "text": "!מישראל"
+    },
+    {
+      "file": "audio/12-trek-sfx-3.mp3",
+      "at": 6.0,
+      "type": "sfx",
+      "duration": 2.48,
+      "volume": 0.6
+    },
+    {
+      "file": "audio/12-trek-sfx-4.mp3",
+      "at": 7.5,
+      "type": "sfx",
+      "duration": 1.0,
+      "volume": 0.6
+    },
+    {
+      "file": "audio/narration/shira/12-trek-1.mp3",
+      "at": 7.6,
+      "type": "narration",
+      "duration": 19.2,
+      "text": "[laughs] After the army, every Israeli disappears. HaTiyul HaGadol. The big trip. [beat] So there I was above Machu Picchu, slamming shesh besh. A tourist asked where we were from. [firmly] When your country always has to defend itself, you say it proudly.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "12b-amazon": [
+    {
+      "file": "audio/12b-amazon-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0,
+      "volume": 0.45
+    },
+    {
+      "file": "audio/12b-amazon-1.mp3",
+      "at": 1.0,
+      "type": "voice",
+      "duration": 1.76,
+      "who": "shira_young",
+      "text": "[shouting] !וואלה, נחש"
+    },
+    {
+      "file": "audio/12b-amazon-2.mp3",
+      "at": 3.0,
+      "type": "voice",
+      "duration": 1.68,
+      "who": "trip_friend",
+      "text": "תירגעי, הוא ישן."
+    },
+    {
+      "file": "audio/12b-amazon-sfx-2.mp3",
+      "at": 5.8,
+      "type": "sfx",
+      "duration": 1.48,
+      "volume": 0.6
+    },
+    {
+      "file": "audio/narration/shira/12b-amazon-1.mp3",
+      "at": 7.4,
+      "type": "narration",
+      "duration": 13.92,
+      "text": "[excited] No money, no plan, a boat held together with tape, and a snake. [laughs] Total balagan. [beat] We always figured it out. That trip taught me risk isn't scary. It's how things start.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "14-apartment": [
+    {
+      "file": "audio/14-apartment-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0,
+      "volume": 0.4
+    },
+    {
+      "file": "audio/14-apartment-1.mp3",
+      "at": 1.0,
+      "type": "voice",
+      "duration": 1.84,
+      "who": "omer_adult",
+      "text": "!לא, לא. ככה"
+    },
+    {
+      "file": "audio/14-apartment-sfx-2.mp3",
+      "at": 2.3,
+      "type": "sfx",
+      "duration": 3.0,
+      "volume": 0.7
+    },
+    {
+      "file": "audio/14-apartment-2.mp3",
+      "at": 5.0,
+      "type": "voice",
+      "duration": 1.04,
+      "who": "lena_adult",
+      "text": "...הפיקדון"
+    },
+    {
+      "file": "audio/14-apartment-sfx-3.mp3",
+      "at": 6.1,
+      "type": "sfx",
+      "duration": 1.48,
+      "volume": 0.5
+    },
+    {
+      "file": "audio/narration/shira/14-apartment-1.mp3",
+      "at": 6.6,
+      "type": "narration",
+      "duration": 18.16,
+      "text": "[warmly] Back home, I started a company with my friend Omer. I drew a safe little circle. He drew one ten times bigger. [beat] He wasn't scared. [firmly] Israel started as a crazy dream too. Im tirtzu, ein zo agada. If you will it, it's no dream.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "15-fail": [
+    {
+      "file": "audio/15-fail-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 12.0,
+      "volume": 0.45
+    },
+    {
+      "file": "audio/15-fail-sfx-2.mp3",
+      "at": 2.0,
+      "type": "sfx",
+      "duration": 1.0,
+      "volume": 0.6
+    },
+    {
+      "file": "audio/15-fail-1.mp3",
+      "at": 4.3,
+      "type": "voice",
+      "duration": 2.4,
+      "who": "omer_adult",
+      "text": "טוב. מתחילים מחדש מחר."
+    },
+    {
+      "file": "audio/15-fail-sfx-3.mp3",
+      "at": 6.5,
+      "type": "sfx",
+      "duration": 1.0,
+      "volume": 0.5
+    },
+    {
+      "file": "audio/15-fail-sfx-4.mp3",
+      "at": 9.8,
+      "type": "sfx",
+      "duration": 3.48,
+      "volume": 0.7
+    },
+    {
+      "file": "audio/15-fail-2.mp3",
+      "at": 11.2,
+      "type": "voice",
+      "duration": 1.28,
+      "who": "lena_adult",
+      "text": "הוא לא נורמלי."
+    },
+    {
+      "file": "audio/narration/shira/15-fail-1.mp3",
+      "at": 12.4,
+      "type": "narration",
+      "duration": 12.08,
+      "text": "[softly] Our first company failed. Completely. [beat] We sat on the beach, ate garinim, and laughed about it. [firmly] In Israel, failing isn't the end. Yalla. Round two.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "16-exit": [
+    {
+      "file": "audio/16-exit-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 5.48,
+      "volume": 0.4
+    },
+    {
+      "file": "audio/16-exit-sfx-2.mp3",
+      "at": 2.2,
+      "type": "sfx",
+      "duration": 1.48,
+      "volume": 0.6
+    },
+    {
+      "file": "audio/16-exit-1.mp3",
+      "at": 5.3,
+      "type": "voice",
+      "duration": 1.6,
+      "who": "shira_adult",
+      "text": "[shouting] !עשינו אקזיט"
+    },
+    {
+      "file": "audio/16-exit-sfx-3.mp3",
+      "at": 5.7,
+      "type": "sfx",
+      "duration": 3.0,
+      "volume": 0.65
+    },
+    {
+      "file": "audio/16-exit-2.mp3",
+      "at": 7.2,
+      "type": "voice",
+      "duration": 0.8,
+      "who": "lena_adult",
+      "text": "...מה?"
+    },
+    {
+      "file": "audio/16-exit-3.mp3",
+      "at": 8.2,
+      "type": "voice",
+      "duration": 1.6,
+      "who": "omer_adult",
+      "text": "!יאללה, יותר גבוה"
+    },
+    {
+      "file": "audio/16-exit-sfx-4.mp3",
+      "at": 8.6,
+      "type": "sfx",
+      "duration": 5.0,
+      "volume": 0.6
+    },
+    {
+      "file": "audio/narration/shira/16-exit-1.mp3",
+      "at": 12.6,
+      "type": "narration",
+      "duration": 12.24,
+      "text": "[excited] Years later, one phone call. [shouting] We got the exit! [laughs] The office lifted me up in a chair like it was a wedding. [warmly] We weren't the first Israelis to do this. We won't be the last.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ],
+  "17-mentor": [
+    {
+      "file": "audio/17-mentor-sfx-1.mp3",
+      "at": 0.0,
+      "type": "sfx",
+      "duration": 8.0,
+      "volume": 0.35
+    },
+    {
+      "file": "audio/17-mentor-1.mp3",
+      "at": 2.0,
+      "type": "voice",
+      "duration": 1.12,
+      "who": "little_girl",
+      "text": "[shouting] !למה"
+    },
+    {
+      "file": "audio/17-mentor-2.mp3",
+      "at": 5.2,
+      "type": "voice",
+      "duration": 2.88,
+      "who": "shira_adult",
+      "text": "שאלה מצוינת. בואי נחשוב."
+    },
+    {
+      "file": "audio/17-mentor-sfx-2.mp3",
+      "at": 7.2,
+      "type": "sfx",
+      "duration": 1.0,
+      "volume": 0.6
+    },
+    {
+      "file": "audio/narration/shira/17-mentor-1.mp3",
+      "at": 7.6,
+      "type": "narration",
+      "duration": 8.32,
+      "text": "[softly] Now I'm the one at the front of the class. [beat] And a little girl in the first row just asked why. [warmly] It starts all over again.",
+      "pause_after": 0.3,
+      "path": "shira"
+    }
+  ]
+}

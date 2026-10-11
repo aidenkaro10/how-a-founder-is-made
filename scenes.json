@@ -1,0 +1,731 @@
+{
+  "_readme": "The story, scene by scene. The site reads this file. Each shot plays one AI clip (clips/<id>.mp4). No words on screen during scenes. After every shot with a 'lesson', the film goes back to the notebook: the page says 'Age N · place' at the top, the scene's first frame is taped in, and 'Lesson #' + 'lesson' + 'summary' are handwritten. Lesson numbers count up along each path. 'beats' = what happens (reference only). 'screens' = scroll length. A shot can have its own 'place' (shown on its page) and its own 'path' (omer-only shots are skipped on Shira's path).",
+  "chapters": [
+    {
+      "id": "born-omer",
+      "age": 0,
+      "place": "Modiin",
+      "hebrew": "איך נולד יזם",
+      "shots": [
+        {
+          "id": "00-book-modiin",
+          "screens": 3.5,
+          "beats": [
+            "Modiin. A young city between Tel Aviv and Jerusalem.",
+            "White stone buildings, parks everywhere, and a lot of parents who work in tech.",
+            "This is where our story starts."
+          ],
+          "lines": [],
+          "age": 0
+        }
+      ],
+      "path": "omer"
+    },
+    {
+      "id": "why",
+      "age": 6,
+      "place": "Modiin",
+      "hebrew": "למה?",
+      "shots": [
+        {
+          "id": "01-classroom",
+          "screens": 4,
+          "beats": [
+            "Omer is six. His teacher's name is Rinat. Not Ms. anything. Just Rinat.",
+            "Rinat explains something. Omer's hand shoots up. \"Lamah?\" Why?",
+            "In a lot of countries that's talking back. Here it's just how class works."
+          ],
+          "lines": [],
+          "age": 6,
+          "lesson": "Israelis aren't afraid to speak up when something isn't right.",
+          "summary": "Chutzpah (חוצפה): audacity. The nerve to challenge anyone, ask for what you want, and try what everyone says is impossible. In Yiddish it was an insult. In Israel, it's a compliment. [16]"
+        }
+      ],
+      "path": "omer"
+    },
+    {
+      "id": "dugri",
+      "age": 9,
+      "place": "Modiin",
+      "hebrew": "דוגרי",
+      "shots": [
+        {
+          "id": "02-makolet",
+          "screens": 3.5,
+          "beats": [
+            "Omer grabs a football off the shelf at the corner store.",
+            "He barely gets one toss in before the owner yells. \"Yeled, tafsik!\" Kid, stop!",
+            "Omer puts it down. Nobody's offended. That's dugri, straight talk.",
+            "Israelis say exactly what they mean. Years later, that saves founders months of polite nonsense."
+          ],
+          "lines": [],
+          "age": 9,
+          "lesson": "Say it straight.",
+          "summary": "Dugri: Israelis say exactly what they mean. Nobody gets offended. [15]"
+        }
+      ],
+      "path": "omer"
+    },
+    {
+      "id": "fifteen",
+      "age": 10,
+      "place": "Sderot",
+      "hebrew": "צבע אדום",
+      "shots": [
+        {
+          "id": "03-siren",
+          "screens": 3,
+          "beats": [
+            "Omer is visiting his grandma in Sderot, a town right by the Gaza border.",
+            "Then the siren. Tzeva Adom. Red Alert.",
+            "From here, you have about 15 seconds to reach a shelter."
+          ],
+          "lines": [],
+          "age": 10,
+          "lesson": "Fifteen seconds.",
+          "summary": "In Sderot you get about 15 seconds to reach a shelter. [13]"
+        },
+        {
+          "id": "04-shelter",
+          "screens": 4,
+          "beats": [
+            "Every new home built since 1993 has a reinforced safe room. Kids learn the drill early.",
+            "Inside, somebody deals cards. Omer holds his little cousin's hand.",
+            "Then the door opens, and they go back to playing.",
+            "You grow up learning to stay calm and move fast when there's no time to think."
+          ],
+          "lines": [],
+          "age": 10,
+          "lesson": "Survive, then keep living.",
+          "summary": "Every new home since 1993 has a safe room. Then you go back outside and play. [14]"
+        }
+      ],
+      "path": "omer"
+    },
+    {
+      "id": "remember",
+      "age": 12,
+      "place": "Modiin",
+      "hebrew": "יום הזיכרון",
+      "shots": [
+        {
+          "id": "04b-zikaron",
+          "screens": 4,
+          "beats": [
+            "Once a year, on Yom HaZikaron, Israel's Memorial Day, a siren goes off across the whole country.",
+            "For two minutes, everything stops. Drivers get out of their cars in the middle of the highway and stand.",
+            "Omer is 12, standing next to his dad. He already gets it. In six years, it's his turn.",
+            "Kids here grow up knowing the country depends on them. That weight makes people serious early."
+          ],
+          "lines": [],
+          "age": 12,
+          "lesson": "Carry the weight early.",
+          "summary": "Memorial Day: the whole country stops for the siren. In six years, it's your turn. [33]"
+        }
+      ],
+      "path": "omer"
+    },
+    {
+      "id": "lead",
+      "age": 15,
+      "place": "Tzofim",
+      "hebrew": "צופים",
+      "shots": [
+        {
+          "id": "05-scouts",
+          "screens": 3.5,
+          "beats": [
+            "At 15, Omer becomes a madrich in Tzofim.",
+            "Teenagers run the whole thing. They plan the activities, lead the younger kids, and fix whatever breaks.",
+            "They're managing people before they're old enough to drive."
+          ],
+          "lines": [],
+          "age": 15,
+          "lesson": "Lead before you're ready.",
+          "summary": "In Tzofim, teens 15 to 17 run everything for the younger kids. [17]"
+        }
+      ],
+      "path": "omer"
+    },
+    {
+      "id": "born-shira",
+      "path": "shira",
+      "age": 0,
+      "place": "A kibbutz in the Galilee",
+      "hebrew": "קיבוץ",
+      "shots": [
+        {
+          "id": "00k-book-kibbutz",
+          "screens": 3.5,
+          "beats": [
+            "The pencil sketch on the page pops up into a green kibbutz: red roofs, cowsheds, a water tower, the Galilee hills."
+          ],
+          "lines": [],
+          "age": 0,
+          "place": "A kibbutz in the Galilee"
+        }
+      ]
+    },
+    {
+      "id": "farm",
+      "path": "shira",
+      "age": 6,
+      "place": "The kibbutz school",
+      "hebrew": "למה?",
+      "shots": [
+        {
+          "id": "01k-classroom",
+          "screens": 4,
+          "beats": [
+            "The kibbutz school. Cowsheds and fields outside the window, kids in sandals.",
+            "Shira is six. Her teacher, Dalia, is explaining something. Everyone calls her Dalia.",
+            "Shira's hand shoots up. \"Lamah?\" Why? Dalia stops and actually answers her."
+          ],
+          "lines": [],
+          "age": 6,
+          "lesson": "Israelis aren't afraid to speak up when something isn't right.",
+          "summary": "Chutzpah (חוצפה): audacity. The nerve to challenge anyone, ask for what you want, and try what everyone says is impossible. In Yiddish it was an insult. In Israel, it's a compliment. [16]",
+          "place": "The kibbutz school"
+        }
+      ]
+    },
+    {
+      "id": "hall",
+      "path": "shira",
+      "age": 9,
+      "place": "The dining hall",
+      "hebrew": "דוגרי",
+      "shots": [
+        {
+          "id": "02k-dining-hall",
+          "screens": 4,
+          "beats": [
+            "The whole kibbutz arguing loudly across the tables about a decision. Shira climbs onto a bench and says what she thinks. A farmer laughs: she's right."
+          ],
+          "lines": [],
+          "age": 9,
+          "lesson": "Israelis say exactly what they mean.",
+          "summary": "Dugri (דוגרי): straight talk. No sugarcoating. Feedback is fast because nobody wastes time being polite. [15]",
+          "place": "The dining hall"
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "path": "shira",
+      "age": 10,
+      "place": "Upper Galilee",
+      "hebrew": "צבע אדום",
+      "shots": [
+        {
+          "id": "03k-siren",
+          "screens": 3,
+          "beats": [
+            "A sunny afternoon by the kibbutz pool. A red light pulses, kids look up, then everyone runs for the shelter. Calm, fast, no panic."
+          ],
+          "lines": [],
+          "age": 10,
+          "lesson": "When there's no time and it's stressful, Israelis don't panic, they move.",
+          "summary": "Near Israel's borders, the warning before a rocket can be just seconds. Kids know the drill like it's brushing their teeth.",
+          "place": "Upper Galilee"
+        },
+        {
+          "id": "04k-shelter",
+          "screens": 4,
+          "beats": [
+            "The shared shelter, painted with kids' murals, a ping pong table. Older kids keep the little ones laughing with a card game. The door opens to sunlight; everyone runs back out to play."
+          ],
+          "lines": [],
+          "age": 10,
+          "lesson": "Israelis know how to switch into survival mode.",
+          "summary": "There's no \"all clear\" siren. You wait about 10 minutes in the shelter, or until the Home Front Command app says it's over. Since 1993, every new home in Israel must have a reinforced safe room, a mamad (ממ\"ד). [14]",
+          "place": "The kibbutz shelter"
+        }
+      ]
+    },
+    {
+      "id": "remember-k",
+      "path": "shira",
+      "age": 12,
+      "place": "The kibbutz",
+      "hebrew": "יום הזיכרון",
+      "shots": [
+        {
+          "id": "04bk-zikaron",
+          "screens": 4,
+          "beats": [
+            "The whole kibbutz in white shirts. The siren. Everyone stands perfectly still. Shira next to her mom, looking at the wall of names."
+          ],
+          "lines": [],
+          "age": 12,
+          "lesson": "Israelis grow up knowing the country depends on them.",
+          "summary": "Yom HaZikaron, Memorial Day: a 1-minute siren the night before, a 2-minute siren at 11 a.m. The whole country stands still. [33]",
+          "place": "The kibbutz memorial garden"
+        }
+      ]
+    },
+    {
+      "id": "drip",
+      "path": "shira",
+      "age": 15,
+      "place": "Kibbutz fields",
+      "hebrew": "טפטוף",
+      "shots": [
+        {
+          "id": "05k-drip",
+          "screens": 4,
+          "beats": [
+            "Dawn in the fields. Shira in a kova tembel hat, fixing a drip irrigation line, bossing around the younger kids. Water drops sparkle down the line."
+          ],
+          "lines": [],
+          "age": 15,
+          "lesson": "Israelis fix it themselves. They don't wait for anyone's approval.",
+          "summary": "Drip irrigation became a global company on a kibbutz: Netafim, Kibbutz Hatzerim, 1965. Now, it waters farms all over the world. [34][35]",
+          "place": "Kibbutz fields"
+        }
+      ]
+    },
+    {
+      "id": "army",
+      "age": 18,
+      "place": "The army",
+      "hebrew": "צה״ל",
+      "shots": [
+        {
+          "id": "07-selection",
+          "screens": 4,
+          "beats": [
+            "A testing room, puzzles, a quiet interview. An officer slides a folder across the table. Shira is in."
+          ],
+          "lines": [],
+          "age": 17,
+          "lesson": "Israel gives young people real responsibility.",
+          "summary": "Unit 8200 is the IDF's biggest unit, its cyber and intelligence core. [8]",
+          "place": "The recruitment office"
+        },
+        {
+          "id": "06-draft",
+          "screens": 3.5,
+          "beats": [
+            "The bus to the base, families hugging, everyone in the same new olive uniform. Shira walks right past a curly-haired guy (Omer). Neither notices."
+          ],
+          "lines": [],
+          "age": 18,
+          "lesson": "In Israel, everyone serves side by side.",
+          "summary": "Military service is required at 18. Men serve 32 months, women 24. [6][7]",
+          "place": "The induction base"
+        },
+        {
+          "id": "06b-basic",
+          "screens": 4,
+          "beats": [
+            "Omer's combat basic training. Night march, heavy packs, carrying a stretcher with his whole squad.",
+            "You find out you can keep going long after you wanted to quit. And that nobody finishes alone."
+          ],
+          "lines": [],
+          "age": 18,
+          "lesson": "Nobody finishes alone.",
+          "summary": "Basic training: keep going long after you want to quit.",
+          "path": "omer"
+        },
+        {
+          "id": "08-ops-room",
+          "screens": 3.5,
+          "beats": [
+            "A dark room full of screens. Shira leads her small team on a live problem. Coffee cups, tired faces. She fixes it; quiet high fives."
+          ],
+          "lines": [],
+          "age": 19,
+          "lesson": "Israelis lead before they're \"ready.\"",
+          "summary": "In tech units like 8200, soldiers in their late teens run real operations with real stakes. [8]",
+          "place": "Unit 8200"
+        },
+        {
+          "id": "08b-tank",
+          "screens": 4,
+          "beats": [
+            "Omer is on the Golan Heights with the Armored Corps, the tech guy of his tank crew.",
+            "Night. Something in the tank's systems is down before a dawn exercise. He's the one who has to fix it."
+          ],
+          "lines": [],
+          "age": 19,
+          "lesson": "Real stakes at 19.",
+          "summary": "The tech guy of the tank crew. If it breaks, you fix it before dawn.",
+          "path": "omer"
+        },
+        {
+          "id": "09-briefing",
+          "screens": 4.5,
+          "beats": [
+            "A field briefing on the hood of a jeep. Omer's commander lays out the plan.",
+            "Omer is way lower in rank. He says it anyway. \"That won't work.\"",
+            "The commander doesn't shut him down. \"Show me.\""
+          ],
+          "lines": [],
+          "age": 20,
+          "lesson": "The best idea wins.",
+          "summary": "Junior soldiers are expected to challenge officers. Rank doesn't win arguments. [12]",
+          "path": "omer"
+        },
+        {
+          "id": "10-debrief",
+          "screens": 3.5,
+          "beats": [
+            "Every rank in one circle. The commander asks what went wrong. Shira points at the commander's own call. The commander nods and writes it down."
+          ],
+          "lines": [],
+          "age": 20,
+          "lesson": "The best idea wins, not the highest rank.",
+          "summary": "Israeli units debrief every mission, wins and mistakes, and junior soldiers are expected to challenge officers. [12]",
+          "place": "Unit 8200"
+        },
+        {
+          "id": "11-hill",
+          "screens": 3.5,
+          "beats": [
+            "Sunset on a hill, Shira's unit eating sunflower seeds, coffee on a little gas burner, laughing."
+          ],
+          "lines": [],
+          "age": 21,
+          "lesson": "In Israel, your unit becomes a part of your family.",
+          "summary": "Reserve duty can last until about age 40, so units stay together for decades. All four Wiz founders served together in 8200. [7][11]",
+          "place": "Unit 8200",
+          "path": "cut"
+        }
+      ],
+      "path": "both"
+    },
+    {
+      "id": "trip-omer",
+      "age": 22,
+      "place": "South America",
+      "hebrew": "הטיול הגדול",
+      "shots": [
+        {
+          "id": "12-trek",
+          "screens": 3.5,
+          "beats": [
+            "A colorful carpet spread on the hill overlooking Machu Picchu. Shira and her Israeli friends playing shesh besh (backgammon), slamming the pieces, shouting in Hebrew. A small Israeli flag patch on her backpack. A tourist asks where they're from; Shira grins."
+          ],
+          "lines": [],
+          "age": 22,
+          "lesson": "Israelis are proud of where they come from, wherever they go.",
+          "summary": "HaTiyul HaGadol (הטיול הגדול): up to 40,000 Israelis backpack abroad every year, about a third of everyone finishing the army. South America is a classic route. Shesh besh (backgammon) goes everywhere with them. [19]",
+          "place": "Machu Picchu, Peru"
+        },
+        {
+          "id": "12b-amazon",
+          "screens": 3.5,
+          "beats": [
+            "A rickety riverboat, hammocks, bright macaws flying overhead. A snake on a branch right next to the boat. Everyone yells, then cracks up laughing."
+          ],
+          "lines": [],
+          "age": 22,
+          "lesson": "Risk isn't scary. It's how things start.",
+          "summary": "Balagan (בלגן) = total chaos. Israelis are weirdly good at it. Months of figuring things out far from home is basically founder training. [19]",
+          "place": "The Amazon"
+        }
+      ],
+      "path": "shira"
+    },
+    {
+      "id": "trip-shira",
+      "path": "cut",
+      "age": 22,
+      "place": "Thailand",
+      "hebrew": "הטיול הגדול",
+      "shots": [
+        {
+          "id": "12k-bangkok",
+          "screens": 3.5,
+          "beats": [
+            "Shira does the Asia swing. Bangkok first: Khao San Road at night, neon everywhere.",
+            "A street food cart, a crowd of Israeli backpackers, someone haggling loudly in Hebrew."
+          ],
+          "lines": [],
+          "age": 22,
+          "lesson": "Jump before you're ready.",
+          "summary": "The Asia swing: a huge share of soldiers backpack far away after the army. [19]"
+        },
+        {
+          "id": "12kb-island",
+          "screens": 3.5,
+          "beats": [
+            "Then the islands. A beach at night, fire dancers, music, a big circle of Israelis dancing.",
+            "Not much money, no real plan. You get good at improvising and stop being scared of risk."
+          ],
+          "lines": [],
+          "age": 22,
+          "lesson": "Improvise.",
+          "summary": "No plan, little money, a bus that never comes. You figure it out. [19]"
+        }
+      ]
+    },
+    {
+      "id": "uni",
+      "age": 24,
+      "place": "Tel Aviv",
+      "hebrew": "אוניברסיטה",
+      "shots": [
+        {
+          "id": "13-campus",
+          "screens": 4.5,
+          "beats": [
+            "A weekend hackathon at Tel Aviv University (use the TAU reference photos), rival teams at one long table, pizza boxes. Shira and Omer argue loudly for an hour. By morning, Omer drags his chair to her side."
+          ],
+          "lines": [],
+          "age": 24,
+          "lesson": "Your rival today can be your cofounder tomorrow.",
+          "summary": "Tel Aviv University ranks 7th in the world, and 1st outside the U.S., for producing VC-backed founders. [24]",
+          "place": "Tel Aviv",
+          "path": "cut"
+        }
+      ],
+      "path": "both"
+    },
+    {
+      "id": "startup",
+      "age": 27,
+      "place": "Tel Aviv",
+      "hebrew": "סטארטאפ",
+      "shots": [
+        {
+          "id": "14-apartment",
+          "screens": 4,
+          "beats": [
+            "A tiny Tel Aviv apartment, late-night shawarma, a whiteboard. Shira draws a medium circle for their plan. Omer grabs the marker, says no, and draws a huge circle around it, filling the whole board. Shira stares at it, then smiles."
+          ],
+          "lines": [],
+          "age": 27,
+          "lesson": "If you will it, it is no dream. (אם תרצו, אין זו אגדה)",
+          "summary": "\"Im tirtzu, ein zo agada\" is Theodor Herzl's line from his 1902 novel Altneuland, written decades before Israel existed. Big dreams also need money: in 1993 the government's Yozma program put $100M into ten new venture funds and basically started Israel's venture capital industry. [5]",
+          "place": "Tel Aviv"
+        },
+        {
+          "id": "15-fail",
+          "screens": 3.5,
+          "beats": [
+            "Night on the Tel Aviv beach after the first company fails. The team sits quietly, then someone grabs the matkot paddles and they play in the dark, the \"tak tak tak\" echoing, everyone laughing again."
+          ],
+          "lines": [],
+          "age": 27,
+          "lesson": "Fail, then go again.",
+          "summary": "A World Economic Forum report named Israel the place where entrepreneurial failure is most accepted. [31]",
+          "place": "Tel Aviv beach"
+        }
+      ],
+      "path": "both"
+    },
+    {
+      "id": "exit",
+      "age": 35,
+      "place": "Tel Aviv",
+      "hebrew": "אקזיט",
+      "shots": [
+        {
+          "id": "16-exit",
+          "screens": 3.5,
+          "beats": [
+            "The office goes crazy after one phone call. Everyone gathers around Shira, sits her in an office chair and lifts her up high, Israeli celebration style, dancing in a circle. A huge hummus spread, Omer laughing."
+          ],
+          "lines": [],
+          "age": 35,
+          "lesson": "It works.",
+          "summary": "In 2026 Google bought Israeli startup Wiz for $32 billion, the biggest exit in Israeli history. [11]",
+          "place": "Tel Aviv"
+        }
+      ],
+      "path": "both"
+    },
+    {
+      "id": "loop",
+      "age": 40,
+      "place": "Tel Aviv",
+      "hebrew": "למה?",
+      "shots": [
+        {
+          "id": "17-mentor",
+          "screens": 3.5,
+          "beats": [
+            "Shira back in a classroom, mentoring kids. A little girl in the front row raises her hand."
+          ],
+          "lines": [],
+          "age": 40,
+          "lesson": "Pass it on.",
+          "summary": "And somewhere in the front row, a kid is already asking why.",
+          "place": "A classroom"
+        }
+      ],
+      "path": "both"
+    }
+  ],
+  "ending": {
+    "companies": [
+      {
+        "name": "Check Point",
+        "line": "Cofounded by Gil Shwed, a Unit 8200 alum.",
+        "year": "1993"
+      },
+      {
+        "name": "Waze",
+        "line": "Bought by Google for a reported $1.1B.",
+        "year": "2013"
+      },
+      {
+        "name": "Mobileye",
+        "line": "Bought by Intel for about $15.3B.",
+        "year": "2017"
+      },
+      {
+        "name": "Wiz",
+        "line": "Bought by Google for $32B, the biggest exit in Israeli history.",
+        "year": "2026"
+      }
+    ],
+    "stats": [
+      {
+        "value": "7,200+",
+        "label": "active startups"
+      },
+      {
+        "value": "6.8%",
+        "label": "of GDP on R&D, #1 in the OECD"
+      },
+      {
+        "value": "$15.6B",
+        "label": "raised by Israeli startups in 2025"
+      }
+    ],
+    "quote": {
+      "text": "Number one in the world by far",
+      "who": "Elon Musk",
+      "when": "2026, on Israel's innovation per capita"
+    },
+    "answer": "So why does it work? Because a kid here spends twenty years practicing to be a founder before she ever starts a company.",
+    "reasons": [
+      {
+        "title": "Ask why",
+        "line": "Questioning is normal from kindergarten on."
+      },
+      {
+        "title": "Say it straight",
+        "line": "Blunt feedback is fast feedback."
+      },
+      {
+        "title": "Stay calm under pressure",
+        "line": "Fifteen seconds teaches you to act."
+      },
+      {
+        "title": "Carry weight early",
+        "line": "Memorial Day and the draft make kids serious young."
+      },
+      {
+        "title": "Grit",
+        "line": "Basic training teaches you to keep going, and that nobody finishes alone."
+      },
+      {
+        "title": "Lead young",
+        "line": "Teens run things. Soldiers own real systems."
+      },
+      {
+        "title": "Challenge rank",
+        "line": "The best idea wins, not the boss."
+      },
+      {
+        "title": "Your unit is your network",
+        "line": "Army friends become cofounders and investors."
+      },
+      {
+        "title": "Think global, fail fast",
+        "line": "A tiny market and no shame in failing."
+      }
+    ],
+    "pages": [
+      {
+        "style": "facts",
+        "tag": "Israel · today",
+        "title": "The numbers",
+        "photo": "clips/14-apartment.jpg",
+        "headline": "Israel is “number one in the world by far” in innovation per capita.",
+        "lines": [
+          "Elon Musk, 2026",
+          "About 10.3 million people",
+          "7,200+ startups, about one for every 1,400 Israelis",
+          "#1 in the OECD for R&D spending: 6.8% of GDP"
+        ],
+        "dur": 8,
+        "source": true
+      },
+      {
+        "style": "facts",
+        "tag": "How it got built",
+        "title": "The numbers",
+        "photo": "clips/08-ops-room.jpg",
+        "headline": "It didn't happen by accident.",
+        "lines": [
+          "Yozma, 1993: $100M into ten venture funds started the industry",
+          "Foreign investors put in 71% of Israeli startup money",
+          "Unit 8200 alumni founded Check Point, ICQ, NICE and Wiz",
+          "Talpiot takes no more than 60 people a year out of about 10,000 top students"
+        ],
+        "dur": 8,
+        "source": false
+      },
+      {
+        "style": "facts",
+        "tag": "The exits",
+        "title": "The numbers",
+        "photo": "clips/05k-drip.jpg",
+        "headline": "And it works.",
+        "lines": [
+          "Waze to Google, $1.1B (2013)",
+          "Mobileye to Intel, $15.3B (2017)",
+          "Wiz to Google, $32B (2026), the biggest exit in Israeli history",
+          "$15.6B raised by Israeli startups in 2025",
+          "Netafim, drip irrigation, born on a kibbutz in 1965"
+        ],
+        "dur": 8,
+        "source": false
+      },
+      {
+        "style": "credits",
+        "tag": "Credits",
+        "title": "A film by",
+        "photo": "clips/15-fail.jpg",
+        "headline": "Aiden Karo & Guy Taylor",
+        "lines": [
+          "Animation made with AI: Nano Banana Pro, Seedance 2.0, Veo",
+          "Voices and sound: ElevenLabs",
+          "Every fact in this film is real. Sources in research.md",
+          "And Bamba, for showing up in every scene"
+        ],
+        "dur": 7,
+        "source": false
+      },
+      {
+        "style": "credits",
+        "tag": "P.S.",
+        "title": "One more thing",
+        "photo": "assets/claude-map.jpg",
+        "map": true,
+        "headline": "But the real hero was Claude.",
+        "lines": [
+          "P.S. Israeli startups, darling.",
+          "Map: Visual Capitalist, data: Anthropic Economic Index"
+        ],
+        "dur": 7,
+        "source": true
+      }
+    ]
+  },
+  "paths": {
+    "omer": {
+      "name": "Omer",
+      "place": "Modiin"
+    },
+    "shira": {
+      "name": "Shira",
+      "place": "A kibbutz in the Galilee"
+    }
+  }
+}

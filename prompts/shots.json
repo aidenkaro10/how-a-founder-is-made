@@ -1,0 +1,1504 @@
+{
+ "style": "Hand-drawn 2D doodle cartoon, like a joyful illustrated picture book come to life. Clean, confident dark ink outlines with consistent line weight and a slightly wobbly hand-drawn feel. VERY colorful: bright, vivid, saturated, cheerful flat colors everywhere (turquoise skies, rich greens, sunny yellows, bright reds and oranges, colorful clothes and props), with light marker and crayon texture and minimal flat shading. Simple readable shapes, expressive faces with big clear expressions, soft paper texture. Modern indie animated short. Israeli people and places, accurate and respectful. Any signs or packaging are plain with no readable text. 16:9.",
+ "video_style": "2D hand-drawn doodle animation, clean ink outlines, very bright saturated flat colors, subtle line boil, keep the exact look and colors of the first frame.",
+ "negative": "3D render, CGI, Pixar look, plastic skin, photorealism, anime, chibi, heavy gradients, lens blur, depth of field blur, readable text, letters, logos, watermark, gore, extra fingers, merged limbs, American suburban look, baseball caps, yellow school buses",
+ "characters": {
+  "omer_kid": {
+   "name": "Omer (age 6 to 10)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a small Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big gap-toothed grin and a small silver Star of David pendant on a thin chain, wearing a plain light-blue school uniform t-shirt with a small plain round emblem, navy cargo shorts and black velcro strap sport sandals. Child proportions: round face, full cheeks, big eyes, short limbs.",
+   "description": "a small Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big gap-toothed grin and a small silver Star of David pendant on a thin chain, wearing a plain light-blue school uniform t-shirt with a small plain round emblem, navy cargo shorts and black velcro strap sport sandals"
+  },
+  "omer_kid_jersey": {
+   "name": "Omer (age 9, soccer jersey)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a nine-year-old Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big gap-toothed grin and a small silver Star of David pendant on a thin chain, wearing a plain yellow-and-blue soccer jersey, navy cargo shorts and black velcro strap sport sandals. Child proportions: round face, full cheeks, big eyes, short limbs.",
+   "description": "a nine-year-old Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big gap-toothed grin and a small silver Star of David pendant on a thin chain, wearing a plain yellow-and-blue soccer jersey, navy cargo shorts and black velcro strap sport sandals"
+  },
+  "omer_12": {
+   "name": "Omer (age 12, Memorial Day)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a lanky twelve-year-old Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a serious face and a small silver Star of David pendant on a thin chain, wearing a plain white button-up ceremony shirt, dark trousers and black velcro strap sport sandals. Child proportions: round face, full cheeks, big eyes, short limbs.",
+   "description": "a lanky twelve-year-old Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a serious face and a small silver Star of David pendant on a thin chain, wearing a plain white button-up ceremony shirt, dark trousers and black velcro strap sport sandals"
+  },
+  "omer_teen": {
+   "name": "Omer (age 15, Tzofim madrich)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a lanky fifteen-year-old Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big grin and a small silver Star of David pendant on a thin chain, wearing a dusty-blue short-sleeve Tzofim uniform shirt with a maroon neckerchief held by a wooden toggle, khaki shorts and black velcro strap sport sandals. Child proportions: round face, full cheeks, big eyes, short limbs.",
+   "description": "a lanky fifteen-year-old Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big grin and a small silver Star of David pendant on a thin chain, wearing a dusty-blue short-sleeve Tzofim uniform shirt with a maroon neckerchief held by a wooden toggle, khaki shorts and black velcro strap sport sandals"
+  },
+  "omer_soldier": {
+   "name": "Omer (age 18 to 21, Armored Corps)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a young Israeli man about nineteen with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose and an easy grin, wearing a plain olive-green army work uniform with sleeves rolled, a black beret folded and tucked under the left shoulder strap, a dog tag chain and a thin silver chain with a small Star of David showing at the collar, and black boots.",
+   "description": "a young Israeli man about nineteen with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose and an easy grin, wearing a plain olive-green army work uniform with sleeves rolled, a black beret folded and tucked under the left shoulder strap, a dog tag chain and a thin silver chain with a small Star of David showing at the collar, and black boots"
+  },
+  "omer_young": {
+   "name": "Omer (age 22 to 24, big trip)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli man about twenty-two with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, clean-shaven, a friendly grin and a small silver Star of David pendant on a thin chain, wearing a faded red t-shirt, khaki cargo shorts and black hiking strap sandals, with a huge backpack with a small plain blue-and-white Israeli flag patch.",
+   "description": "an Israeli man about twenty-two with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, clean-shaven, a friendly grin and a small silver Star of David pendant on a thin chain, wearing a faded red t-shirt, khaki cargo shorts and black hiking strap sandals, with a huge backpack with a small plain blue-and-white Israeli flag patch"
+  },
+  "omer_adult": {
+   "name": "Omer (adult)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli man around thirty with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, light stubble, a friendly grin and a small silver Star of David pendant on a thin chain, wearing a plain black t-shirt, dark-blue jeans and black leather strap sandals.",
+   "description": "an Israeli man around thirty with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, light stubble, a friendly grin and a small silver Star of David pendant on a thin chain, wearing a plain black t-shirt, dark-blue jeans and black leather strap sandals"
+  },
+  "shira_kid": {
+   "name": "Shira (age 6 to 9)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a small Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, a slightly softer, rounder, girlish face with a little smirk and a faint rosy blush, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a faded light-blue t-shirt, khaki shorts and brown velcro strap sport sandals. Child proportions: round face, full cheeks, big eyes, short limbs.",
+   "description": "a small Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, a slightly softer, rounder, girlish face with a little smirk and a faint rosy blush, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a faded light-blue t-shirt, khaki shorts and brown velcro strap sport sandals"
+  },
+  "shira_kid_pool": {
+   "name": "Shira (age 10, summer)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a ten-year-old Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a navy-and-white striped long-sleeve rash-guard top, navy knee-length board shorts, brown velcro strap sport sandals and a striped beach towel around her shoulders. Child proportions: round face, full cheeks, big eyes, short limbs.",
+   "description": "a ten-year-old Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a navy-and-white striped long-sleeve rash-guard top, navy knee-length board shorts, brown velcro strap sport sandals and a striped beach towel around her shoulders"
+  },
+  "shira_12": {
+   "name": "Shira (age 12, Memorial Day)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a twelve-year-old Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair tied back, a serious face and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a plain white button-up ceremony shirt, dark-blue trousers and brown velcro strap sport sandals. Child proportions: round face, full cheeks, big eyes, short limbs.",
+   "description": "a twelve-year-old Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair tied back, a serious face and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a plain white button-up ceremony shirt, dark-blue trousers and brown velcro strap sport sandals"
+  },
+  "shira_teen": {
+   "name": "Shira (age 15, fields)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a fifteen-year-old Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, a softer teenage girl's face with gently arched brows and a confident half-smile, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing an old faded blue work shirt with rolled sleeves, a soft cloth kova tembel bucket hat, khaki work shorts and brown strap sandals. Child proportions: round face, full cheeks, big eyes, short limbs.",
+   "description": "a fifteen-year-old Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, a softer teenage girl's face with gently arched brows and a confident half-smile, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing an old faded blue work shirt with rolled sleeves, a soft cloth kova tembel bucket hat, khaki work shorts and brown strap sandals"
+  },
+  "shira_soldier": {
+   "name": "Shira (age 18 to 21, 8200)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a young Israeli woman about nineteen with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair pulled into a big high ponytail, a softer young woman's face with longer lashes and a calm, direct look, wearing a plain olive-green army work uniform with sleeves rolled, a dark beret folded and tucked under the left shoulder strap, a dog tag chain and a thin gold chain with a small chai pendant showing at the collar, and black boots.",
+   "description": "a young Israeli woman about nineteen with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair pulled into a big high ponytail, a softer young woman's face with longer lashes and a calm, direct look, wearing a plain olive-green army work uniform with sleeves rolled, a dark beret folded and tucked under the left shoulder strap, a dog tag chain and a thin gold chain with a small chai pendant showing at the collar, and black boots"
+  },
+  "shira_young": {
+   "name": "Shira (age 22 to 24, big trip)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli woman about twenty-two with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair piled in a big messy bun, a clearly grown-up young woman's face, soft and natural, with long lashes and fuller lips, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a plain white tank top, baggy patterned elephant-print Thai pants and brown hiking strap sandals, with a huge backpack with a small plain blue-and-white Israeli flag patch.",
+   "description": "an Israeli woman about twenty-two with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair piled in a big messy bun, a clearly grown-up young woman's face, soft and natural, with long lashes and fuller lips, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a plain white tank top, baggy patterned elephant-print Thai pants and brown hiking strap sandals, with a huge backpack with a small plain blue-and-white Israeli flag patch"
+  },
+  "shira_adult": {
+   "name": "Shira (adult)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli woman in her thirties with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, a soft, natural grown woman's face with long lashes, fuller lips and warm laugh lines, no makeup look, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a loose off-white linen shirt with rolled sleeves, light-blue jeans and brown leather strap sandals.",
+   "description": "an Israeli woman in her thirties with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, a soft, natural grown woman's face with long lashes, fuller lips and warm laugh lines, no makeup look, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a loose off-white linen shirt with rolled sleeves, light-blue jeans and brown leather strap sandals"
+  },
+  "rinat_teacher": {
+   "name": "Rinat (teacher)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli first-grade teacher in her thirties with tan skin, dark curly hair in a loose bun, round tortoiseshell glasses and a warm open smile, wearing a mustard-yellow cardigan over a white blouse and a long olive-green skirt.",
+   "description": "an Israeli first-grade teacher in her thirties with tan skin, dark curly hair in a loose bun, round tortoiseshell glasses and a warm open smile, wearing a mustard-yellow cardigan over a white blouse and a long olive-green skirt"
+  },
+  "dalia_teacher": {
+   "name": "Dalia (kibbutz teacher)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli kibbutz schoolteacher in her late forties with sun-tanned skin, short practical dark hair streaked with grey, sharp dark eyes with laugh lines and reading glasses on a cord around her neck, wearing a faded blue kibbutz work shirt with rolled sleeves, khaki trousers and brown leather strap sandals.",
+   "description": "an Israeli kibbutz schoolteacher in her late forties with sun-tanned skin, short practical dark hair streaked with grey, sharp dark eyes with laugh lines and reading glasses on a cord around her neck, wearing a faded blue kibbutz work shirt with rolled sleeves, khaki trousers and brown leather strap sandals"
+  },
+  "store_owner": {
+   "name": "Store owner",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a stocky Israeli shopkeeper in his sixties with sun-weathered olive skin, a bushy grey mustache, bald on top with grey sides and thick grey eyebrows, wearing a white undershirt-style tank tee, a small dark-green half apron, grey trousers and old sandals.",
+   "description": "a stocky Israeli shopkeeper in his sixties with sun-weathered olive skin, a bushy grey mustache, bald on top with grey sides and thick grey eyebrows, wearing a white undershirt-style tank tee, a small dark-green half apron, grey trousers and old sandals"
+  },
+  "savta": {
+   "name": "Savta (Omer's grandmother)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a warm Moroccan-Israeli grandmother in her seventies with brown skin, laugh lines and kind dark eyes, wearing a colorful patterned headscarf tied at the back of her neck, a flowered cotton housecoat, house slippers and reading glasses on a beaded chain.",
+   "description": "a warm Moroccan-Israeli grandmother in her seventies with brown skin, laugh lines and kind dark eyes, wearing a colorful patterned headscarf tied at the back of her neck, a flowered cotton housecoat, house slippers and reading glasses on a beaded chain"
+  },
+  "omer_dad": {
+   "name": "Omer's dad",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli man in his forties with olive-tan skin, dark curly hair going grey at the sides, rectangular glasses, a kind tired face and a slight belly, wearing a light-blue short-sleeve button shirt, beige chinos and brown strap sandals.",
+   "description": "an Israeli man in his forties with olive-tan skin, dark curly hair going grey at the sides, rectangular glasses, a kind tired face and a slight belly, wearing a light-blue short-sleeve button shirt, beige chinos and brown strap sandals"
+  },
+  "shira_mom": {
+   "name": "Shira's mom",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli kibbutz woman in her forties with sun-tanned olive skin, very thick frizzy dark brown curly hair with a few grey strands, tied up loosely with a bright turquoise headscarf, freckles like her daughter's, laugh lines and a wide warm smile, and a small gold chai pendant on a thin gold chain, like her daughter's, wearing a loose rust-orange linen blouse with rolled sleeves, light-grey cotton trousers and brown leather strap sandals.",
+   "description": "an Israeli kibbutz woman in her forties with sun-tanned olive skin, very thick frizzy dark brown curly hair with a few grey strands, tied up loosely with a bright turquoise headscarf, freckles like her daughter's, laugh lines and a wide warm smile, and a small gold chai pendant on a thin gold chain, like her daughter's, wearing a loose rust-orange linen blouse with rolled sleeves, light-grey cotton trousers and brown leather strap sandals"
+  },
+  "shira_mom_ceremony": {
+   "name": "Shira's mom (Memorial Day)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli kibbutz woman in her forties with sun-tanned olive skin, very thick frizzy dark brown curly hair with a few grey strands, tied back, freckles like her daughter's, laugh lines and a wide warm smile, and a small gold chai pendant on a thin gold chain, like her daughter's, wearing a plain white button-up ceremony shirt, dark trousers and brown strap sandals.",
+   "description": "an Israeli kibbutz woman in her forties with sun-tanned olive skin, very thick frizzy dark brown curly hair with a few grey strands, tied back, freckles like her daughter's, laugh lines and a wide warm smile, and a small gold chai pendant on a thin gold chain, like her daughter's, wearing a plain white button-up ceremony shirt, dark trousers and brown strap sandals"
+  },
+  "major": {
+   "name": "The commander",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli officer in his forties with tan skin, short dark hair greying at the temples, a short neat dark beard and calm intelligent eyes, wearing a plain unmarked olive-green uniform with sleeves rolled.",
+   "description": "an Israeli officer in his forties with tan skin, short dark hair greying at the temples, a short neat dark beard and calm intelligent eyes, wearing a plain unmarked olive-green uniform with sleeves rolled"
+  },
+  "noam_soldier": {
+   "name": "Noam (age 20)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a tall, lean Ethiopian-Israeli young man about twenty with deep brown skin, short cropped black hair, black-framed glasses and a wide warm smile, wearing a plain unmarked olive-green work uniform with sleeves rolled.",
+   "description": "a tall, lean Ethiopian-Israeli young man about twenty with deep brown skin, short cropped black hair, black-framed glasses and a wide warm smile, wearing a plain unmarked olive-green work uniform with sleeves rolled"
+  },
+  "lena_soldier": {
+   "name": "Lena (age 20)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a Russian-Israeli young woman about twenty with fair skin, light-blond hair in one long braid over her shoulder, pale blue-grey eyes and a sharp, dry expression, wearing a plain unmarked olive-green work uniform with sleeves rolled.",
+   "description": "a Russian-Israeli young woman about twenty with fair skin, light-blond hair in one long braid over her shoulder, pale blue-grey eyes and a sharp, dry expression, wearing a plain unmarked olive-green work uniform with sleeves rolled"
+  },
+  "lena_adult": {
+   "name": "Lena (adult)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a Russian-Israeli woman around thirty with fair skin, light-blond hair in one long braid over her shoulder, pale blue-grey eyes and a sharp, dry half-smile, wearing a dark-green bomber jacket over a black t-shirt and blue jeans.",
+   "description": "a Russian-Israeli woman around thirty with fair skin, light-blond hair in one long braid over her shoulder, pale blue-grey eyes and a sharp, dry half-smile, wearing a dark-green bomber jacket over a black t-shirt and blue jeans"
+  },
+  "little_girl": {
+   "name": "Little girl (last scene)",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: a six-year-old Israeli girl with tan skin, a big cloud of curly dark hair held back by a yellow headband and huge curious brown eyes, wearing a red t-shirt under denim overalls and brown strap sandals. Child proportions: round face, full cheeks, big eyes, short limbs.",
+   "description": "a six-year-old Israeli girl with tan skin, a big cloud of curly dark hair held back by a yellow headband and huge curious brown eyes, wearing a red t-shirt under denim overalls and brown strap sandals"
+  },
+  "shira_24": {
+   "name": "Shira (age 24, Tel Aviv)",
+   "description": "an Israeli woman about twenty-two with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair piled in a big messy bun, a clearly grown-up young woman's face, soft and natural, with long lashes and fuller lips, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing an oversized mustard-yellow t-shirt, black jeans with rolled cuffs and white canvas sneakers",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli woman about twenty-two with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair piled in a big messy bun, a clearly grown-up young woman's face, soft and natural, with long lashes and fuller lips, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing an oversized mustard-yellow t-shirt, black jeans with rolled cuffs and white canvas sneakers."
+  },
+  "omer_24": {
+   "name": "Omer (age 24, Tel Aviv)",
+   "description": "an Israeli man about twenty-two with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, clean-shaven, a friendly grin and a small silver Star of David pendant on a thin chain, wearing a grey hoodie with the sleeves pushed up, dark jeans and black sneakers",
+   "sheet_prompt": "2D doodle character turnaround sheet on a plain white background: the same character drawn four times in a row, front view, three-quarter view, side profile and back view, full body, relaxed standing pose. Clean confident dark ink outlines, bright flat colors with light marker texture, simple readable shapes, expressive face. The sheet shows only the four drawings, with no text, labels or captions. The character: an Israeli man about twenty-two with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, clean-shaven, a friendly grin and a small silver Star of David pendant on a thin chain, wearing a grey hoodie with the sleeves pushed up, dark jeans and black sneakers."
+  }
+ },
+ "shots": [
+  {
+   "id": "00-book-modiin",
+   "path": "omer",
+   "place_refs": [
+    "modiin"
+   ],
+   "characters": [],
+   "image_prompt": "Top-down view of an open sketchbook diary lying flat on a plain light wooden desk. The left page is blank cream paper with faint ruled lines. On the right page, a loose grey pencil sketch of a small modern Israeli city: rows of white stone apartment blocks with balconies, round parks with young trees, a curving road with a roundabout, a low school building and gentle hills with olive trees behind. Loose pencil scribbles in the top corner, abstract with no letters. A yellow pencil lies across the bottom corner. Soft even daylight from the left, simple uncluttered composition.",
+   "video_prompt": "The pencil sketch on the right page pops up off the paper like a pop-up book, the little buildings and trees folding upright row by row while bright flat colors fill in: white stone, green parks, a blue sky. Camera: slow push-in toward the page. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [],
+   "sfx": [
+    {
+     "prompt": "soft sketchbook page settling, paper rustle, then a magical paper unfolding flutter and a gentle rising whoosh",
+     "duration": 5,
+     "at": 0
+    },
+    {
+     "prompt": "light outdoor morning ambience fading in, birds chirping, a far-off bicycle bell",
+     "duration": 4,
+     "at": 4
+    }
+   ]
+  },
+  {
+   "id": "01-classroom",
+   "path": "omer",
+   "place_refs": [
+    "modiin"
+   ],
+   "characters": [
+    "omer_kid",
+    "rinat_teacher"
+   ],
+   "image_prompt": "Medium-wide shot at kid eye level inside a bright first-grade classroom in a white stone school in Modiin, Israel, at the ten o'clock snack break. Simple set: small wooden desks, a whiteboard with a simple drawing of a sun and raindrops with no letters, one big sunny window. On the desks, pitas with chocolate spread and colorful puffy snack bags, plain, with no readable text. Screen left, front row: Omer, six (a small Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big gap-toothed grin and a small silver Star of David pendant on a thin chain, wearing a plain light-blue school uniform t-shirt with a small plain round emblem, navy cargo shorts and black velcro strap sport sandals), sitting forward with his chin up and one hand flat on the desk, curious. Screen right, beside the whiteboard: Rinat (an Israeli first-grade teacher in her thirties with tan skin, dark curly hair in a loose bun, round tortoiseshell glasses and a warm open smile, wearing a mustard-yellow cardigan over a white blouse and a long olive-green skirt), mid-explanation, one open hand toward the drawing. A few classmates drawn simply at the other desks. Bright morning sunlight from the big window on the right.",
+   "video_prompt": "At about 1 second the curly-haired boy in the light-blue school tee shoots his hand straight up with a one-word question. The teacher in the mustard cardigan points at him with both hands, delighted. The classmates stay mostly still. Camera: slow push-in toward the boy. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "omer_kid",
+     "text": "למה?",
+     "lang": "he",
+     "voice_hint": "Voice: Real child voice, boy about 6 to 10, Israeli, native Hebrew speaker. Bright, a bit raspy from shouting at recess, fast and cheeky. Must sound like an actual kid, not an adult doing a kid voice. This line: 6-year-old boy, blurting it out, curious and a little impatient, native Hebrew. Pronounced 'Lamah?' (Why?)",
+     "at": 1.0,
+     "mix": "clear"
+    },
+    {
+     "who": "rinat_teacher",
+     "text": "וואלה, שאלה טובה!",
+     "lang": "he",
+     "voice_hint": "Voice: Woman in her 30s, Israeli, native Hebrew, bright and warm first-grade teacher, smiley, expressive. This line: amused and genuinely pleased, native Hebrew. Pronounced 'Walla, she'elah tovah!' (Wow, good question!)",
+     "at": 2.2,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "lively Israeli first-grade classroom at snack time, kids chattering and interrupting in Hebrew, crinkling snack bags, a chair scraping",
+     "duration": 8,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "02-makolet",
+   "path": "omer",
+   "place_refs": [
+    "modiin"
+   ],
+   "characters": [
+    "omer_kid_jersey",
+    "store_owner"
+   ],
+   "image_prompt": "Medium shot at kid height inside a tiny crammed Israeli corner grocery store on a hot afternoon. Floor-to-ceiling shelves of colorful puffy snack bags and boxes, all packaging plain with no readable text or logos, jars of pickles, stacks of pita, a small fridge of chocolate milk in soft bags, an old radio on the counter. Screen left: Omer, nine (a nine-year-old Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big gap-toothed grin and a small silver Star of David pendant on a thin chain, wearing a plain yellow-and-blue soccer jersey, navy cargo shorts and black velcro strap sport sandals), standing on tiptoe, holding a black-and-white soccer ball in both hands at chest height, grinning. Screen right, behind the counter: the store owner (a stocky Israeli shopkeeper in his sixties with sun-weathered olive skin, a bushy grey mustache, bald on top with grey sides and thick grey eyebrows, wearing a white undershirt-style tank tee, a small dark-green half apron, grey trousers and old sandals), leaning on his elbows beside a small pile of sunflower-seed shells, eyes narrowing at the boy. Warm sunlight slants in through the open door from the left.",
+   "video_prompt": "The curly-haired boy in the yellow-and-blue jersey tosses the soccer ball straight up into his own hands. At about 1.5 seconds the bald shopkeeper with the grey mustache and little green apron jabs one finger at him and barks two words from behind the counter. Camera: locked-off at kid height. Real-time speed, the ball has weight. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 5,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "store_owner",
+     "text": "ילד, תפסיק!",
+     "lang": "he",
+     "voice_hint": "Voice: Man in his 60s, Israeli shopkeeper, native Hebrew, gravelly smoker's voice, loud, gruff, deadpan, never actually angry. This line: loud and sharp, a bark not a scream, not hateful, native Hebrew. Pronounced 'Yeled, tafsik!' (Kid, stop!)",
+     "at": 1.5,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "cramped corner store ambience, buzzing fridge, ceiling fan, a small radio playing a Hebrew news broadcast quietly, sunflower seeds cracking",
+     "duration": 5,
+     "at": 0
+    },
+    {
+     "prompt": "soccer ball slapping into small hands once",
+     "duration": 1,
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "id": "03-siren",
+   "path": "omer",
+   "place_refs": [
+    "sderot"
+   ],
+   "characters": [
+    "omer_kid",
+    "savta"
+   ],
+   "image_prompt": "Wide shot at eye level, a sunny afternoon in a small town in southern Israel. Foreground screen right, on the shaded patio of a pale stone apartment building: Omer's grandmother (a warm Moroccan-Israeli grandmother in her seventies with brown skin, laugh lines and kind dark eyes, wearing a colorful patterned headscarf tied at the back of her neck, a flowered cotton housecoat, house slippers and reading glasses on a beaded chain), setting plates of hummus and pita on a plastic-covered table. Midground screen left, in a neighborhood playground: Omer, ten (a small Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big gap-toothed grin and a small silver Star of David pendant on a thin chain, wearing a plain light-blue school uniform t-shirt with a small plain round emblem, navy cargo shorts and black velcro strap sport sandals), kicking a soccer ball with his little cousin, a five-year-old boy with a buzz cut and a stuffed giraffe under his arm. Behind them a long concrete shelter painted as a giant smiling caterpillar in bright green and yellow, its doorway open. Eucalyptus trees, laundry on balconies, warm late sunlight from the left, clear empty blue sky.",
+   "video_prompt": "In the first second the kids look up toward a loudspeaker pole. Then they jog briskly into the painted caterpillar shelter, the curly-haired boy in the light-blue school tee holding his little cousin's hand, the grandmother in the headscarf and flowered housecoat a few steps behind. Calm and practiced, like a school drill. Camera: smooth tracking shot at kid height, moving left to right with the boys. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "pa_announcer",
+     "text": "צבע אדום. צבע אדום.",
+     "lang": "he",
+     "voice_hint": "Voice: Woman, 30s to 40s, calm, neutral recorded Hebrew public-address voice, steady and clear, played through outdoor loudspeakers. This line: calm and steady over outdoor loudspeakers, slightly echoey. Pronounced 'Tzeva Adom. Tzeva Adom.' (Red Alert)",
+     "at": 1.0,
+     "mix": "clear"
+    },
+    {
+     "who": "savta",
+     "text": "יאללה, חמודים, פנימה!",
+     "lang": "he",
+     "voice_hint": "Voice: Woman in her 70s, Moroccan-Israeli grandmother, native Hebrew with a soft North African lilt, warm, brisk, a little husky. This line: calm but brisk, native Hebrew. Pronounced 'Yalla, chamudim, pnima!' (Come on, sweeties, inside!)",
+     "at": 3.2,
+     "mix": "under"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "quiet afternoon in a small town, birds, a soccer ball thumping, kids shouting in Hebrew, plates on a patio table",
+     "duration": 8,
+     "at": 0
+    },
+    {
+     "prompt": "rising and falling warning siren echoing over a quiet small town from distant loudspeakers",
+     "duration": 5,
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "id": "04-shelter",
+   "path": "omer",
+   "place_refs": [
+    "sderot"
+   ],
+   "characters": [
+    "omer_kid",
+    "savta"
+   ],
+   "image_prompt": "Medium shot at eye level inside a small cozy concrete shelter whose curved walls are painted with a bright mural of flowers and hot air balloons. A warm bulb hangs from the ceiling. Screen right: Omer's grandmother (a warm Moroccan-Israeli grandmother in her seventies with brown skin, laugh lines and kind dark eyes, wearing a colorful patterned headscarf tied at the back of her neck, a flowered cotton housecoat, house slippers and reading glasses on a beaded chain), on a low stool, dealing playing cards onto an upturned wooden crate, a dish towel over one shoulder. Screen left, on a wooden bench: Omer, ten (a small Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big gap-toothed grin and a small silver Star of David pendant on a thin chain, wearing a plain light-blue school uniform t-shirt with a small plain round emblem, navy cargo shorts and black velcro strap sport sandals), holding a fan of cards, his little cousin (a five-year-old with a buzz cut hugging a stuffed giraffe) pressed against his side, a plain yellow snack bag with no printing open between them. A thick grey steel door, closed, at the right edge of frame. Warm bulb light, gentle cozy mood.",
+   "video_prompt": "The grandmother in the headscarf and flowered housecoat deals cards onto the crate, one at a time. The curly-haired boy in the light-blue school tee crosses his eyes and puffs his cheeks at his little cousin, who giggles. In the last two seconds the steel door at the right swings open and daylight spills across the floor. Camera: slow push-in at eye level. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": "The same shelter interior from the same camera position, a little closer: the steel door at the right is now open and warm golden daylight pours across the floor, the crate of cards and the kids' faces; the grandmother and the boy turn toward the light, smiling. Warm bulb light mixed with golden daylight.",
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "omer_kid",
+     "text": "רגע, ניצחתי!",
+     "lang": "he",
+     "voice_hint": "Voice: Real child voice, boy about 6 to 10, Israeli, native Hebrew speaker. Bright, a bit raspy from shouting at recess, fast and cheeky. Must sound like an actual kid, not an adult doing a kid voice. This line: 10-year-old boy, outraged in a funny way, native Hebrew. Pronounced 'Rega, nitzachti!' (Wait, I won!)",
+     "at": 6.5,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "small concrete room, cards slapping on wood, a crunchy snack bag rustling, kids bickering playfully in Hebrew",
+     "duration": 6,
+     "at": 0
+    },
+    {
+     "prompt": "heavy steel door unlatching and creaking open, then birdsong and a light breeze rushing in",
+     "duration": 3,
+     "at": 5
+    }
+   ]
+  },
+  {
+   "id": "04b-zikaron",
+   "path": "omer",
+   "place_refs": [
+    "modiin"
+   ],
+   "characters": [
+    "omer_12",
+    "omer_dad"
+   ],
+   "image_prompt": "Medium shot, slightly low eye level, a bright still spring morning on a divided highway through green hills near Modiin. Foreground screen left: Omer, twelve (a lanky twelve-year-old Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a serious face and a small silver Star of David pendant on a thin chain, wearing a plain white button-up ceremony shirt, dark trousers and black velcro strap sport sandals), standing very straight, arms at his sides. Screen right, half a step behind him: his dad (an Israeli man in his forties with olive-tan skin, dark curly hair going grey at the sides, rectangular glasses, a kind tired face and a slight belly, wearing a light-blue short-sleeve button shirt, beige chinos and brown strap sandals), hands folded in front of him, head slightly bowed. Behind them every car, bus and truck has stopped with doors open, and small figures stand motionless beside them, drawn simply. A small plain white-and-blue flag at half mast on a far hilltop. Soft morning sun behind them, light haze.",
+   "video_prompt": "Everything is still. A light breeze moves the boy's curls and his dad's shirt. In the middle of the clip the curly-haired boy in the white tee glances up at his dad once and lifts his chin slightly. The distant figures stay completely still. Camera: very slow push-in toward the boy. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [],
+   "sfx": [
+    {
+     "prompt": "a single steady, unwavering memorial siren tone across open hills, not rising or falling",
+     "duration": 8,
+     "at": 0
+    },
+    {
+     "prompt": "highway gone silent, a car door ticking, wind and a single bird",
+     "duration": 8,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "05-scouts",
+   "path": "omer",
+   "place_refs": [
+    "tzofim"
+   ],
+   "characters": [
+    "omer_teen"
+   ],
+   "image_prompt": "Medium-wide shot, low angle, at night at an Israeli Tzofim youth movement camp in a pine forest clearing: a campfire singing circle. Around the fire, ten-year-old Tzofim kids with maroon neckerchiefs sit on logs with their arms over each other's shoulders, a teenage madricha (girl counselor) with an acoustic guitar among them, all drawn simply. Screen left, crouched at the edge of the coals: Omer, fifteen (a lanky fifteen-year-old Israeli boy with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, a big grin and a small silver Star of David pendant on a thin chain, wearing a dusty-blue short-sleeve Tzofim uniform shirt with a maroon neckerchief held by a wooden toggle, khaki shorts and black velcro strap sport sandals), with a foil-wrapped potato in mid-air between his two hands, mouth open in a funny yelp. A small blackened coffee pot sits on a flat rock by the fire. Warm orange firelight on faces, deep blue night sky with a few stars.",
+   "video_prompt": "The lanky teen in the blue Tzofim shirt and maroon neckerchief juggles the hot foil potato from hand to hand, laughing. Around the fire the younger kids sway gently side to side, arms on each other's shoulders. Camera: locked-off, low angle. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 5,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "omer_teen",
+     "text": "איי, חם, חם!",
+     "lang": "he",
+     "voice_hint": "Voice: Teen boy about 15, Israeli, voice just cracked and still settling, loud, goofy, warm. This line: yelping and laughing, native Hebrew. Pronounced 'Ai, cham, cham!' (Ow, hot, hot!)",
+     "at": 1.0,
+     "mix": "under"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "crackling campfire, crickets, wind in pine trees, a strummed acoustic guitar and kids softly humming along",
+     "duration": 5,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "00k-book-kibbutz",
+   "path": "shira",
+   "place_refs": [
+    "kibbutz",
+    "galilee"
+   ],
+   "characters": [],
+   "image_prompt": "Wide establishing shot from a gentle hillside looking down over a small kibbutz in the Upper Galilee, Israel, on a bright spring morning: white houses with red-tiled roofs among big green trees and tall palm trees, long open cowsheds with black-and-white cows, a tall white water tower, a low dining hall beside a big green lawn, a blue-and-white Israeli flag on a pole, rows of orchards, a winding path with a few bicycles, and green-and-gold Galilee hills rising behind under a turquoise sky with a few puffy white clouds. Only a few tiny figures far away, drawn simply, on bicycles and one on a small red tractor. Bright morning sunlight from the left.",
+   "video_prompt": "Gentle life across the kibbutz: the flag ripples in the breeze, the tiny red tractor rolls slowly along an orchard row, and two birds glide across the sky. Camera: slow push-in over the rooftops toward the water tower. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [],
+   "sfx": [
+    {
+     "prompt": "bright countryside morning on a farm, birds chirping, cows mooing far away, a distant tractor, a bicycle bell",
+     "duration": 8,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "01k-classroom",
+   "path": "shira",
+   "place_refs": [
+    "kibbutz"
+   ],
+   "characters": [
+    "shira_kid",
+    "dalia_teacher"
+   ],
+   "image_prompt": "Medium-wide shot at the kids' eye level inside a small sunlit kibbutz schoolroom in the Upper Galilee, Israel, in the morning. A green chalkboard with a chalk doodle of a cow, a sun and a water drop joined by arrows, with no letters or words, and one wide open window: outside, a red-roofed cowshed with black-and-white cows, a green field and soft rolling hills. Small wooden tables in a U. Screen left, kneeling up on her chair in the middle of the U: Shira, six (a small Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, a slightly softer, rounder, girlish face with a little smirk and a faint rosy blush, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a faded light-blue t-shirt, khaki shorts and brown velcro strap sport sandals), leaning forward, chin up, eyes narrowed in pure curiosity. Screen right, at the chalkboard, a stick of chalk raised: Dalia (an Israeli kibbutz schoolteacher in her late forties with sun-tanned skin, short practical dark hair streaked with grey, sharp dark eyes with laugh lines and reading glasses on a cord around her neck, wearing a faded blue kibbutz work shirt with rolled sleeves, khaki trousers and brown leather strap sandals), mid-sentence. Three other six-year-olds in plain tees and sandals, drawn simply. Warm golden morning sunlight pours in through the window on the right.",
+   "video_prompt": "At about 2 seconds the freckled girl in the faded light-blue tee shoots her hand straight up with a one-word question. The teacher with short grey-streaked hair and glasses on a cord crouches down to the girl's eye level and answers seriously, counting on two fingers. Camera: slow push-in toward the girl and the teacher. Real-time speed, small natural gestures. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "shira_kid",
+     "text": "[shouting] !למה?",
+     "lang": "he",
+     "voice_hint": "Voice: Real child voice, girl about 6 to 10, Israeli, native Hebrew speaker. Clear, confident, a little bossy, curious. Must sound like an actual kid, not an adult doing a kid voice. This line: 6-year-old girl, blurting it out, curious and a little impatient, native Hebrew. Pronounced 'Lamah?' (Why?)",
+     "at": 2.0,
+     "mix": "clear"
+    },
+    {
+     "who": "dalia_teacher",
+     "text": "שאלה מצוינת. בואי נחשוב.",
+     "lang": "he",
+     "voice_hint": "Voice: Woman in her late 40s, Israeli kibbutznik, native Hebrew, lower warm voice with a little gravel, unhurried, sharp and kind, takes kids seriously. This line: unhurried and completely serious, pleased by the question, native Hebrew. Pronounced 'She'elah metzuyenet. Bo'i nachshov.' (Excellent question. Let's think.)",
+     "at": 3.4,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "small kibbutz schoolroom in the morning, kids murmuring and fidgeting, chalk tapping, through open windows distant cows mooing, birds and a far-off tractor",
+     "duration": 8,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "02k-dining-hall",
+   "path": "shira",
+   "place_refs": [
+    "kibbutz"
+   ],
+   "characters": [
+    "shira_kid",
+    "shira_mom"
+   ],
+   "image_prompt": "Wide shot at eye level inside a big, bright kibbutz dining hall in the Upper Galilee, Israel, at lunchtime: long wooden tables with steel trays, water pitchers, bowls of chopped salad and schnitzel, tall windows with green hills outside, ceiling fans. Adults of all ages at the long tables, drawn simply, half-standing and arguing loudly with their hands. Center left: Shira, nine (small child proportions), standing up on a wooden bench, one hand raised high, mouth open mid-word, sure of herself. Right beside the bench, standing on the floor: her mom, clearly a GROWN ADULT WOMAN with full adult height and proportions, one hand on her hip, looking at her daughter, half alarmed, half amused. A bearded farmer in a work shirt at the next table, drawn simply, turned toward the girl. Bright midday daylight from the tall windows. (References: shira_kid sheet, shira_mom sheet, 01k-classroom frame for style.)",
+   "video_prompt": "At about 1 second the freckled girl in the light-blue tee, standing on the bench, shouts a few words with her hand up in the air. At about 3 seconds the bearded man in the blue work shirt, sitting at the table, throws his head back and laughs, and the mom in the turquoise headscarf, standing beside the bench, covers her grin with one hand. Each person stays in their own place. The people in the background stay mostly still with small hand gestures. Camera: locked-off, eye level. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same bright flat colors, subtle line boil. No text, no letters, no speech bubbles.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Seedance 2.0 (Veo 3.1 Lite melted the mom into the farmer and added speech bubbles)",
+   "voice_lines": [
+    {
+     "who": "shira_kid",
+     "text": "!אבל זה לא הגיוני",
+     "lang": "he",
+     "voice_hint": "Voice: Real child voice, girl about 6 to 10, Israeli, native Hebrew speaker. Clear, confident, a little bossy, curious. Must sound like an actual kid, not an adult doing a kid voice. This line: 9-year-old girl, loud and sure of herself, projecting over a noisy room. Native Hebrew. Pronounced 'Aval ze lo hegyoni!' (But that makes no sense!)",
+     "at": 1.0,
+     "mix": "clear"
+    },
+    {
+     "who": "kibbutz_member",
+     "text": "[laughing] !היא צודקת",
+     "lang": "he",
+     "voice_hint": "Voice: Man in his 50s, Israeli kibbutznik farmer, gruff, warm, big laugh in the voice. This line: bursting out laughing, delighted. Native Hebrew. Pronounced 'Hi tzodeket!' (She's right!)",
+     "at": 4.8,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "noisy kibbutz dining hall, adults arguing over each other in Hebrew, cutlery on steel trays, a spoon banging, then a sudden hush and a big laugh",
+     "duration": 8,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "03k-siren",
+   "path": "shira",
+   "place_refs": [
+    "kibbutz",
+    "galilee"
+   ],
+   "characters": [
+    "shira_kid_pool"
+   ],
+   "image_prompt": "(refs: shira_kid sheet + 01k-classroom frame, face/hair must match the classroom Shira, NOT a huge afro) Wide shot at eye level on a hot summer afternoon at a kibbutz pool in the Upper Galilee: turquoise water, green lawn, big shady trees, orchards, green hills, clear blue sky. On the right, a low concrete shelter painted with a kids' mural of cows and sunflowers, door open. Screen left: Shira, ten, small child proportions, light-blue long-sleeve rash-guard top, navy board shorts, white towel over one shoulder, looking up toward a loudspeaker on a pole, holding the hand of a small kid in a yellow sun hat. Three other kids on the deck looking up, a teen lifeguard in a straw hat on a tall white chair.",
+   "video_prompt": "In the first second the kids look up toward the loudspeaker on the pole. Then they walk briskly toward the open door of the painted shelter on the right, the curly-haired girl in the light-blue swim top holding the small kid in the yellow sun hat by the hand. Calm and practiced, like a school drill, no panic. Camera: locked-off wide shot. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same bright flat colors, subtle line boil. No text, no letters, no speech bubbles.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "pa_announcer",
+     "text": "צבע אדום. צבע אדום.",
+     "lang": "he",
+     "voice_hint": "Voice: Calm, flat Israeli PA announcement voice. This line: calm and steady, no drama. Native Hebrew. Pronounced 'Tzeva Adom. Tzeva Adom.' (Red Alert. Red Alert.)",
+     "at": 1.4,
+     "mix": "clear"
+    },
+    {
+     "who": "lifeguard",
+     "text": "[shouting] !כולם למקלט, מהר",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli teen girl lifeguard about 17, native Hebrew, loud and commanding. This line: shouting with real urgency, sharp and fast. Native Hebrew. Pronounced 'Kulam la-miklat, ma'er!' (Everyone to the shelter, fast!)",
+     "at": 2.8,
+     "mix": "clear"
+    },
+    {
+     "who": "shira_kid",
+     "text": "[screaming] !מהר! מהר",
+     "lang": "he",
+     "voice_hint": "Voice: Real child voice, girl about 10, Israeli, native Hebrew speaker. This line: screaming with real fear and urgency while running, pulling a little kid. Native Hebrew. Pronounced 'Ma'er! Ma'er!' (Fast! Fast!)",
+     "at": 0.3,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "summer pool ambience, kids splashing and shouting in Hebrew",
+     "duration": 8,
+     "at": 0
+    },
+    {
+     "prompt": "rising and falling warning siren over open countryside, a lifeguard whistle, bare feet on grass",
+     "duration": 5,
+     "at": 0.5,
+     "volume": 1.0,
+     "shake": 1.2
+    }
+   ]
+  },
+  {
+   "id": "04k-shelter",
+   "path": "shira",
+   "place_refs": [
+    "kibbutz"
+   ],
+   "characters": [
+    "shira_kid_pool"
+   ],
+   "image_prompt": "Medium-wide shot at eye level inside a kibbutz community shelter: a low concrete room whose walls are covered in colorful murals painted by kids (cows, tractors, sunflowers, handprints), a ping pong table pushed to the back, stacked mattresses, a warm hanging bulb, a heavy grey door at the right, closed. In the middle, on a big mattress, a circle of kids playing a card game with plain colorful cards with no readable markings. Screen left, in the circle: Shira, ten (a ten-year-old Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a navy-and-white striped long-sleeve rash-guard top, navy knee-length board shorts, brown velcro strap sport sandals and a striped beach towel around her shoulders), holding a fan of cards, laughing, a tiny four-year-old girl leaning on her shoulder. Screen right: a teenage girl about fifteen with a dark ponytail in a plain green tee, drawn simply, slapping a card down with a big grin. Two more little kids drawn simply in the circle. Warm light from the hanging bulb.",
+   "video_prompt": "At about 1 second the teenage girl with the ponytail slaps a card down and throws her arms up; the little kids in the circle giggle and the freckled girl in the striped long-sleeve top laughs. In the last two seconds the heavy door at the right swings open and bright daylight spills across the floor. Camera: slow push-in at eye level. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": "The same shelter interior from the same camera position, a little closer: the heavy door at the right is now open and warm golden daylight pours across the floor, the ping pong table and the mattresses; the freckled girl and the tiny girl on her lap turn toward the light, smiling. Warm bulb light mixed with golden daylight.",
+   "duration": 11.6,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "older_kid",
+     "text": "!אפשר לצאת",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli teen girl about 15, native Hebrew, bright. This line: reading her phone, then calling it out happily and loud. Native Hebrew. Pronounced 'Efshar latzet!' (We can go out!)",
+     "at": 5.3,
+     "mix": "clear"
+    },
+    {
+     "who": "pool_boy",
+     "text": "[screaming] !יששששש",
+     "lang": "he",
+     "voice_hint": "Voice: Real child voice, Israeli boy about 10, native Hebrew. This line: a huge joyful scream while jumping into a pool, stretched out. Native Hebrew. Pronounced 'Yeshhhh!' (Yes!)",
+     "at": 7.7,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "kids playing cards around a table in an echoey concrete room, cards slapped down, laughing and cheering in Hebrew",
+     "duration": 6,
+     "at": 0
+    },
+    {
+     "prompt": "a deep muffled distant explosion boom heard through thick concrete walls, a low rumble, a fluorescent light buzzing and flickering",
+     "duration": 3,
+     "at": 3,
+     "volume": 0.9,
+     "shake": 0.6
+    },
+    {
+     "prompt": "a heavy steel blast door unlatching and creaking open, birds and summer insects rushing in",
+     "duration": 2.5,
+     "at": 6.6
+    },
+    {
+     "prompt": "a kid cannonballs into a swimming pool, a huge splash, then kids cheering and laughing outdoors in summer",
+     "duration": 4.5,
+     "at": 8.1
+    }
+   ]
+  },
+  {
+   "id": "04bk-zikaron",
+   "path": "shira",
+   "place_refs": [
+    "kibbutz"
+   ],
+   "characters": [
+    "shira_12",
+    "shira_mom_ceremony"
+   ],
+   "image_prompt": "Medium shot, slightly low eye level, late morning in a kibbutz memorial garden in the Upper Galilee: tall cypress trees, a low stone wall with rows of small plaques, plain, with no readable text, wreaths of flowers, a small plain white-and-blue flag at half mast. Screen left: Shira, twelve (a twelve-year-old Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair tied back, a serious face and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a plain white button-up ceremony shirt, dark-blue trousers and brown velcro strap sport sandals), standing very straight, arms at her sides, eyes on the wall. Screen right, close beside her, shoulders touching: her mom (an Israeli kibbutz woman in her forties with sun-tanned olive skin, very thick frizzy dark brown curly hair with a few grey strands, tied back, freckles like her daughter's, laugh lines and a wide warm smile, and a small gold chai pendant on a thin gold chain, like her daughter's, wearing a plain white button-up ceremony shirt, dark trousers and brown strap sandals), head slightly bowed. Behind them, people of the kibbutz in white shirts stand perfectly still, drawn simply, from old men with canes to teenagers. Soft still morning light, gentle haze over green hills.",
+   "video_prompt": "Everything is still. A light breeze moves the cypress branches and a loose strand of the girl's hair. In the middle of the clip the mom with frizzy curls in a white shirt quietly takes her daughter's hand. The figures behind them stay completely still. Camera: very slow push-in toward the girl. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 9.0,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [],
+   "sfx": [
+    {
+     "prompt": "the Israeli Memorial Day siren: one single long steady loud air-raid siren tone that does not rise or fall, sounding across open hills and a highway, then it stops",
+     "duration": 9.6,
+     "at": 0,
+     "volume": 1.0
+    },
+    {
+     "prompt": "deep silence outdoors after a siren, a light breeze in cypress trees, a single bird, someone quietly sniffling",
+     "duration": 5,
+     "at": 8.8
+    }
+   ]
+  },
+  {
+   "id": "05k-drip",
+   "path": "shira",
+   "place_refs": [
+    "kibbutz",
+    "galilee"
+   ],
+   "characters": [
+    "shira_teen"
+   ],
+   "image_prompt": "Medium shot, low angle, at dawn in kibbutz fields in the Upper Galilee: long rows of young avocado trees with thin black drip irrigation tubes along the ground, a pink and gold sky over soft hills. Screen left, kneeling in the dirt: Shira, fifteen (a fifteen-year-old Israeli kibbutz girl with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, a softer teenage girl's face with gently arched brows and a confident half-smile, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing an old faded blue work shirt with rolled sleeves, a soft cloth kova tembel bucket hat, khaki work shorts and brown strap sandals), pressing a small black fitting onto a split tube with both hands, a box of spare black emitters beside her. Screen right, behind her: three younger kibbutz kids around twelve in plain tees, drawn simply, holding coils of tube and yawning. Low golden sunlight from behind the hills, long shadows.",
+   "video_prompt": "At about 1 second the girl in the cloth bucket hat turns and holds out her hand to the younger kid behind her, who passes her a black fitting. She pushes it onto the split tube with her thumbs. At about 3 seconds small drops of water bead out of the emitters one after another along the row, and the younger kids grin. Camera: locked-off, low angle. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "shira_teen",
+     "text": "!לא ככה! תביא לי את זה",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli teen girl about 15, native Hebrew, deadpan and bossy, totally unimpressed. This line: flat, annoyed, a little sarcastic, then firm. Native Hebrew. Pronounced 'Lo kacha! Tavi li et ze!' (Not like that! Give me that!)",
+     "at": 0.9,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "quiet dawn in farm fields, birds waking up, a distant tractor",
+     "duration": 8,
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "prompt": "a garden irrigation hose bursting and spraying hard, water splashing on a boy, then two kids bursting out laughing",
+     "duration": 3,
+     "at": 0
+    },
+    {
+     "prompt": "the water spray stops abruptly as a hose is kinked, then a plastic fitting clicks into place, water dripping",
+     "duration": 2.5,
+     "at": 3.3
+    }
+   ]
+  },
+  {
+   "id": "06-draft",
+   "path": "both",
+   "place_refs": [
+    "army-base"
+   ],
+   "characters": [
+    "shira_soldier",
+    "shira_mom",
+    "omer_soldier"
+   ],
+   "image_prompt": "Wide shot at eye level, morning at a busy Israeli army induction base, a low orange sun behind a line of white coach buses. Families and new recruits in identical olive green fill the background, drawn simply: moms holding plastic food containers, little siblings, phones up for selfies. Screen left, walking toward the right: Omer (a young Israeli man about nineteen with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose and an easy grin, wearing a plain olive-green army work uniform with sleeves rolled, a black beret folded and tucked under the left shoulder strap, a dog tag chain and a thin silver chain with a small Star of David showing at the collar, and black boots), a duffel bag on his shoulder, looking back at his waving family. Screen right, walking toward the left: Shira (a young Israeli woman about nineteen with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair pulled into a big high ponytail, a softer young woman's face with longer lashes and a calm, direct look, wearing a plain olive-green army work uniform with sleeves rolled, a dark beret folded and tucked under the left shoulder strap, a dog tag chain and a thin gold chain with a small chai pendant showing at the collar, and black boots), a duffel bag on her shoulder, eyes down on her phone, which is plain, with no readable text. They are a few steps apart, about to pass each other. Warm low sunlight from behind the buses, long shadows.",
+   "video_prompt": "The curly-haired young man in olive green and the young woman with the big frizzy ponytail walk toward each other and pass shoulder to shoulder, eyes elsewhere. They keep going in opposite directions. The families in the background stay still. Camera: slow push-in at eye level on the spot where they cross. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "shira_mom",
+     "text": "!תתקשרי כשאת מגיעה",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli kibbutz woman in her late 40s, native Hebrew, emotional, teary but loving. This line: calling after her daughter across a noisy crowd, voice cracking a little. Native Hebrew. Pronounced 'Titkashri kshe'at magia!' (Call me when you get there!)",
+     "at": 3.2,
+     "mix": "clear"
+    },
+    {
+     "who": "shira_soldier",
+     "text": "[sad] ...ביייייי אמאאאאא",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli young woman of 18, native Hebrew. This line: a long, drawn-out, sad and loving goodbye to her mom while walking away, voice wobbling, both words stretched out. Native Hebrew. Pronounced 'Byeeeee Emaaaaa' (Bye Mom)",
+     "at": 5.2,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "busy outdoor army induction base, families talking over each other in Hebrew, laughter and crying, bus engines idling, air brakes hissing",
+     "duration": 8,
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "06b-basic",
+   "path": "omer",
+   "place_refs": [
+    "negev"
+   ],
+   "characters": [
+    "omer_soldier",
+    "noam_soldier"
+   ],
+   "image_prompt": "Low-angle medium close-up at night on a desert gravel path under a sky full of stars. Four young recruits carry a canvas stretcher loaded with sandbags on their shoulders, heavy packs on their backs, headlamps glowing warm. Front left, nearest the camera: Omer (a young Israeli man about nineteen with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose and an easy grin, wearing a plain olive-green army work uniform with sleeves rolled, a black beret folded and tucked under the left shoulder strap, a dog tag chain and a thin silver chain with a small Star of David showing at the collar, and black boots), jaw clenched, sweat and dust on his face, one hand gripping the stretcher pole on his shoulder. Front right: Noam (a tall, lean Ethiopian-Israeli young man about twenty with deep brown skin, short cropped black hair, black-framed glasses and a wide warm smile, wearing a plain unmarked olive-green work uniform with sleeves rolled), glasses dusty, gripping the other front pole. The two recruits behind them are dark simple shapes in the headlamp haze. Warm headlamp light against deep blue night, dust floating in the beams.",
+   "video_prompt": "The four march toward the camera in step. At about 2 seconds the tall young man with black-framed glasses stumbles and his knee dips; the curly-haired young man in olive green shifts the pole onto his own shoulder and the stretcher stays level. They keep marching. Camera: handheld, moving backward at walking pace in front of them, same distance the whole time. Real-time speed, heavy steps puffing dust. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "omer_soldier",
+     "text": "Yalla, keep going. Keep going!",
+     "lang": "en",
+     "voice_hint": "Voice: Young man about 19, Israeli, light Israeli accent in English, mid-low voice, a little hoarse, calm under pressure, dry humor. This line: out of breath, gritty, encouraging",
+     "at": 4.5,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "boots crunching on desert gravel, heavy breathing, packs creaking, desert wind at night",
+     "duration": 8,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "07-selection",
+   "path": "both",
+   "place_refs": [
+    "army-base"
+   ],
+   "characters": [
+    "shira_soldier",
+    "lena_soldier"
+   ],
+   "image_prompt": "Medium-wide shot at eye level in a bright, quiet testing hall: rows of desks with computer monitors showing colorful abstract puzzle shapes, plain, with no readable text. Screen left, middle row: Shira (a young Israeli woman about nineteen with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair pulled into a big high ponytail, a softer young woman's face with longer lashes and a calm, direct look, wearing a plain olive-green army work uniform with sleeves rolled, a dark beret folded and tucked under the left shoulder strap, a dog tag chain and a thin gold chain with a small chai pendant showing at the collar, and black boots), leaning forward, chin on her fist, focused. One desk over, screen right: Lena (a Russian-Israeli young woman about twenty with fair skin, light-blond hair in one long braid over her shoulder, pale blue-grey eyes and a sharp, dry expression, wearing a plain unmarked olive-green work uniform with sleeves rolled), frowning at her own monitor. In the aisle between them, a calm woman in her thirties in olive green, drawn simply, holding two plain manila folders. Other young people drawn simply at the far desks. Cool daylight from high windows.",
+   "video_prompt": "The calm woman in the aisle stops at the desk of the young woman with the big frizzy ponytail and slides one plain folder across to her with a small nod. The young woman with the long blond braid at the next desk looks over, eyebrows up. Camera: locked-off at eye level. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "recruiter",
+     "text": "ברוכה הבאה לשמונה מאתיים.",
+     "lang": "he",
+     "voice_hint": "Voice: Calm Israeli woman officer in her 30s, native Hebrew, quiet and dry, a tiny smile in it. This line: low and calm, matter of fact. Native Hebrew. Pronounced 'Bruchah haba'ah le-shmone-matayim.' (Welcome to 8200.)",
+     "at": 2.0,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "quiet computer testing room, keyboards tapping, a wall clock ticking, air conditioner hum",
+     "duration": 8,
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "08-ops-room",
+   "path": "both",
+   "place_refs": [
+    "army-base"
+   ],
+   "characters": [
+    "shira_soldier",
+    "lena_soldier"
+   ],
+   "image_prompt": "Medium shot at night in a dark high-tech operations room: a curved wall of large screens glowing with abstract maps and network graphs in amber and blue, plain, with no readable text. Screen right, standing: Shira (a young Israeli woman about nineteen with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair pulled into a big high ponytail, a softer young woman's face with longer lashes and a calm, direct look, wearing a plain olive-green army work uniform with sleeves rolled, a dark beret folded and tucked under the left shoulder strap, a dog tag chain and a thin gold chain with a small chai pendant showing at the collar, and black boots), focused and calm, holding a small glass of thick black coffee. Screen left, seated at a desk in front of her: Lena (a Russian-Israeli young woman about twenty with fair skin, light-blond hair in one long braid over her shoulder, pale blue-grey eyes and a sharp, dry expression, wearing a plain unmarked olive-green work uniform with sleeves rolled), typing, two plain unlabeled cans beside the keyboard. A young man at the next desk drawn simply, holding a half-eaten pita. A simple round wall clock with no numbers, its hands near three. Cool blue screen light with warm amber highlights.",
+   "video_prompt": "The young woman with the big frizzy ponytail points her coffee glass at the big center screen. At about 2 seconds the amber shapes on the screen ripple and settle into calm green, and the young woman with the long blond braid leans back in her chair. Camera: slow push-in toward the center screen. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "shira_soldier",
+     "text": "!מצאתי! זה הקוד",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli young woman about 19, native Hebrew, focused and calm. This line: sudden, excited but quiet, 3 a.m. energy. Native Hebrew. Pronounced 'Matzati! Ze ha-kod!' (Found it! It's the code!)",
+     "at": 2.2,
+     "mix": "clear"
+    },
+    {
+     "who": "lena_soldier",
+     "text": "!כל הכבוד",
+     "lang": "he",
+     "voice_hint": "Voice: Russian-Israeli young woman about 19, native Hebrew, dry, impressed, tired but happy. This line: warm and a little loud, giving a high five. Native Hebrew. Pronounced 'Kol hakavod!' (Well done!)",
+     "at": 6.5,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "dark computer operations room at night, server hum, fast keyboard typing, a repeating soft electronic alert beep",
+     "duration": 5.5,
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "prompt": "a soft confirmation chime, people exhaling in relief, a high five clap, a chair creaking",
+     "duration": 2.5,
+     "at": 5.0
+    }
+   ]
+  },
+  {
+   "id": "08b-tank",
+   "path": "omer",
+   "place_refs": [
+    "golan"
+   ],
+   "characters": [
+    "omer_soldier",
+    "noam_soldier"
+   ],
+   "image_prompt": "Medium shot at night on a rocky hilltop in northern Israel, dark basalt boulders under a field of stars. The dusty olive-green side of a big tracked army vehicle fills the right half of the frame, framed tight on the side hull and tracks; the top of the vehicle is cut off by the top of the frame. A square access panel is open, showing bundled wires and a row of small red indicator lights. Screen left: Omer (a young Israeli man about nineteen with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose and an easy grin, wearing a plain olive-green army work uniform with sleeves rolled, a black beret folded and tucked under the left shoulder strap, a dog tag chain and a thin silver chain with a small Star of David showing at the collar, and black boots), crouching at the panel with a rugged laptop on one knee, a cable running into the panel, face lit by the screen, which shows only soft abstract color, plain, with no readable text. Behind him: Noam (a tall, lean Ethiopian-Israeli young man about twenty with deep brown skin, short cropped black hair, black-framed glasses and a wide warm smile, wearing a plain unmarked olive-green work uniform with sleeves rolled), holding a flashlight and a steaming metal thermos cup. Cold blue moonlight against warm work-light glow.",
+   "video_prompt": "The curly-haired young man at the laptop presses one key and holds still. At about 3 seconds the row of small indicator lights in the open panel switches from red to steady green, one by one, left to right. He exhales; behind him the tall young man with black-framed glasses grins. Camera: slow push-in toward the young man's face. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "noam_soldier",
+     "text": "Achi, you're a magician.",
+     "lang": "en",
+     "voice_hint": "Voice: Young man about 20, Ethiopian-Israeli, light Israeli accent in English, soft-spoken, warm, smiling voice, quick wit. This line: whispering, impressed. 'Achi' means 'bro'",
+     "at": 4.2,
+     "mix": "under"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "cold night wind on an open plateau, a generator humming, laptop keys clicking",
+     "duration": 8,
+     "at": 0
+    },
+    {
+     "prompt": "electronic systems powering up with a low rising hum and a few soft beeps",
+     "duration": 3,
+     "at": 3
+    }
+   ]
+  },
+  {
+   "id": "09-briefing",
+   "path": "omer",
+   "place_refs": [
+    "golan"
+   ],
+   "characters": [
+    "omer_soldier",
+    "major"
+   ],
+   "image_prompt": "Medium two-shot at eye level at cold pink dawn on a dusty hilltop in northern Israel. A paper map covered in colored marker shapes and arrows, with no words or numbers, lies spread on the hood of an olive-green jeep between two men. Screen right, on the far side of the hood: the commander (an Israeli officer in his forties with tan skin, short dark hair greying at the temples, a short neat dark beard and calm intelligent eyes, wearing a plain unmarked olive-green uniform with sleeves rolled), one hand flat on the map, a thick black marker in the other. Screen left: Omer (a young Israeli man about nineteen with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose and an easy grin, wearing a plain olive-green army work uniform with sleeves rolled, a black beret folded and tucked under the left shoulder strap, a dog tag chain and a thin silver chain with a small Star of David showing at the collar, and black boots), one step forward from a small half circle of young people in olive green holding coffee cups, drawn simply, his right hand raised with fingertips pinched together in the Israeli 'wait a second' gesture. Low pink sunrise from the left, long shadows, empty rolling hills behind.",
+   "video_prompt": "In the first second the curly-haired young man in olive green says a few words, then taps the map once with two fingers. The bearded officer with grey temples studies him for a long beat. At about 4 seconds the officer slides the black marker across the hood toward him. Camera: locked-off, eye level. Real-time speed, calm. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "omer_soldier",
+     "text": "Rega. That won't work.",
+     "lang": "en",
+     "voice_hint": "Voice: Young man about 19, Israeli, light Israeli accent in English, mid-low voice, a little hoarse, calm under pressure, dry humor. This line: steady and direct, a little nervous underneath. 'Rega' means 'wait'",
+     "at": 0.6,
+     "mix": "clear"
+    },
+    {
+     "who": "major",
+     "text": "Sababa. Show me.",
+     "lang": "en",
+     "voice_hint": "Voice: Man in his 40s, Israeli army officer, light Israeli accent in English, deep, calm, slightly gravelly, curious rather than stern. This line: calm, genuinely curious. 'Sababa' means 'okay, cool'",
+     "at": 4.2,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "cold morning wind on a plateau, birds, distant engines idling, a map rustling on a car hood",
+     "duration": 8,
+     "at": 0
+    },
+    {
+     "prompt": "marker sliding across a metal hood",
+     "duration": 1,
+     "at": 4
+    }
+   ]
+  },
+  {
+   "id": "10-debrief",
+   "path": "both",
+   "place_refs": [
+    "army-base"
+   ],
+   "characters": [
+    "shira_soldier",
+    "lena_soldier"
+   ],
+   "image_prompt": "Medium-wide shot at eye level in a plain briefing room on an army base in late afternoon, warm window light. Plastic chairs in a circle, a blank white whiteboard on the back wall, a few paper coffee cups and an open bag of Israeli Osem Bamba on the floor in the middle, drawn like the real bag: dark navy-blue bag, a red oval Osem logo at the top, big red Hebrew letters, a cartoon baby mascot with an orange curl in a light-blue diaper, and puffy tan peanut puffs spilling out. No phones anywhere. Screen left, sitting: Shira (the SAME young woman as the reference: clearly a GROWN ADULT about twenty, full adult height and proportions, olive-tan skin, very thick frizzy dark brown curly hair in a big high ponytail with a light-blue hair tie, thick dark eyebrows, freckles, plain olive-green army uniform with sleeves rolled, dog tag chain and a thin gold chai necklace, black boots), sitting up straight, calm and direct. Back center, facing the camera across the circle: the commander, clearly a GROWN ADULT woman about thirty, short dark hair, olive uniform, a big notepad and pen on her knee, calm. Screen right, sitting: Lena (the SAME young woman as the reference: long light-blond braid, fair skin, sharp dry expression, olive uniform), arms crossed. Front right, CLOSE to the camera and big in frame, seen from the side: a young male soldier with short dark hair, head tilted back, holding one tan Bamba peanut puff between his fingers ready to toss it up. Four more soldiers in the circle, drawn simply, sitting still. VERY colorful.",
+   "video_prompt": "Camera locked-off, eye level, no camera move. 0 to 2 seconds: the commander with short dark hair looks around the circle and asks a question. At the same time the young man in the front right tosses one Bamba puff straight up in a slow, big arc. At about 2.5 seconds he catches it in his open mouth and FREEZES with closed lips and puffed cheeks, eyes wide, not chewing. At the same moment the young woman with the big frizzy ponytail on the left raises her arm and points straight across the circle at the commander and says a short sentence. The young woman with the blond braid on the right raises her eyebrows high and looks at the commander. 4.5 to 6 seconds: everyone is completely still, waiting, the young man still frozen with puffed cheeks. At about 6 seconds the commander nods once, calm, and writes one big stroke on her notepad. Right after, the young man finally starts chewing, relieved. Natural small breathing and blinking, only these people move. Real-time speed. No cuts. No text, no speech bubbles. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "commander",
+     "text": "?מה לא עבד",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli woman commander about 30, native Hebrew, steady and calm. This line: an open question to the whole circle, relaxed. Native Hebrew. Pronounced 'Ma lo avad?' (What didn't work?)",
+     "at": 0.4,
+     "mix": "clear"
+    },
+    {
+     "who": "shira_soldier",
+     "text": "הטעות הייתה שלך.",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli young woman about 20, native Hebrew, direct and calm. This line: plain and respectful, not rude, just true. Native Hebrew. Pronounced 'Ha-ta'ut hayta shelach.' (The mistake was yours.)",
+     "at": 2.6,
+     "mix": "clear"
+    },
+    {
+     "who": "commander",
+     "text": "נכון. תודה.",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli woman commander about 30, native Hebrew, steady. This line: a calm, honest nod in the voice, a short pause between the words. Native Hebrew. Pronounced 'Nachon. Toda.' (True. Thanks.)",
+     "at": 5.7,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "quiet room tone in a small room, plastic chairs creaking softly, a distant air conditioner hum",
+     "duration": 8,
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "prompt": "one loud crunchy bite and chewing of a crispy puffed snack, close up, comedic",
+     "duration": 1.5,
+     "at": 7.2,
+     "volume": 0.8
+    }
+   ]
+  },
+  {
+   "id": "11-hill",
+   "path": "both",
+   "place_refs": [
+    "galilee"
+   ],
+   "characters": [
+    "shira_soldier",
+    "lena_soldier"
+   ],
+   "image_prompt": "Medium-wide shot at golden hour on a grassy hilltop in northern Israel. Screen left: Shira (a young Israeli woman about nineteen with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair pulled into a big high ponytail, a softer young woman's face with longer lashes and a calm, direct look, wearing a plain olive-green army work uniform with sleeves rolled, a dark beret folded and tucked under the left shoulder strap, a dog tag chain and a thin gold chain with a small chai pendant showing at the collar, and black boots), laughing with her head tipped back. Screen right: Lena (a Russian-Israeli young woman about twenty with fair skin, light-blond hair in one long braid over her shoulder, pale blue-grey eyes and a sharp, dry expression, wearing a plain unmarked olive-green work uniform with sleeves rolled), mid-argument with both hands in the air. Between and behind them, three more young people in olive green from their unit, drawn simply, squeezed together on a blanket around a little gas burner with a small brass coffee pot; sunflower-seed shells scattered on the blanket. A plain canvas tent in the background. A big low sun on the horizon behind them, warm light, long shadows.",
+   "video_prompt": "The young woman with the long blond braid lifts the small brass coffee pot from the burner and holds it up toward the group, eyebrows raised; the young woman with the big frizzy ponytail holds out her small glass, laughing, and the friends on the blanket crack sunflower seeds. Camera: slow push-in at eye level. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 5,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "lena_soldier",
+     "text": "?עוד קפה",
+     "lang": "he",
+     "voice_hint": "Voice: Russian-Israeli young woman about 21, native Hebrew, dry and warm. This line: relaxed, holding up the coffee pot. Native Hebrew. Pronounced 'Od kafe?' (More coffee?)",
+     "at": 1.0,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "gentle wind on a hilltop, a small gas burner hissing, sunflower seeds cracking, friends laughing over each other, a phone shutter click",
+     "duration": 5,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "12-trek",
+   "path": "shira",
+   "place_refs": [
+    "machu-picchu"
+   ],
+   "characters": [
+    "shira_young",
+    "lena_soldier",
+    "noam_soldier"
+   ],
+   "image_prompt": "Wide shot at eye level, bright crisp morning on the grassy upper terrace above Machu Picchu: the ancient stone ruins and the big green peak behind, low white clouds in the valley. On the grass, a small bright Peruvian woven blanket with a bold red, orange and turquoise pattern, and in the middle of it a BIG open wooden shesh besh (backgammon) board, large in frame, with big chunky round pieces. Screen left, sitting cross-legged on the blanket: Shira (the SAME young woman as the reference, now twenty-two: clearly a GROWN ADULT with full adult height and proportions, olive-tan skin, very thick frizzy dark brown curly hair in a big high ponytail with a light-blue hair tie, thick dark eyebrows, freckles, thin gold chai necklace, white tank top, light-blue fleece tied around her waist, hiking pants), one arm raised high holding a big wooden piece, about to slam it down, fierce happy grin. Next to her, a small day pack with a little blue-and-white Israeli flag patch. Screen right, across the board: Noam, a GROWN ADULT Ethiopian-Israeli man about twenty-two, dark skin, short black hair, round glasses, scruffy short beard, faded orange t-shirt, leaning in over the board, holding an open bag of Bamba (dark navy bag, red oval Osem logo, cartoon baby mascot in a light-blue diaper) in one hand. Sitting at the back edge of the blanket, watching the game: Lena (the SAME blond young woman with the long braid as the reference, now in a grey hoodie), a curly-haired guy in a red bandana, and a girl in a beige bucket hat, all grown adults, leaning in excited. Back left on the stone path: a tourist, a grown adult man in a wide sun hat with a camera around his neck, stopped and staring at them. Right edge, standing just behind Noam: a fluffy white-and-brown llama, its head near Noam's shoulder. Day packs only, no big backpacks. VERY colorful. No text, no speech bubbles.",
+   "video_prompt": "2D hand-drawn doodle animation of the start frame. Camera locked-off, eye level, no camera move, no zoom. 0 to 2 seconds: the young woman with the big frizzy ponytail on the left swings her whole arm down and SLAMS the big wooden piece onto the board, the board jumps. The three friends at the back throw their arms up and cheer, each a little differently and at slightly different moments. 2.5 to 5 seconds: the man with glasses on the right falls backward onto the blanket with both hands on his head in defeat, still loosely holding the snack bag. The llama behind him slowly lowers its head toward the snack bag. 5 to 8 seconds: the young woman turns toward the staring tourist on the path, grins, and taps the small flag patch on her day pack. Behind the man with glasses, the llama grabs the whole snack bag in its mouth and walks off to the right, chewing. The man doesn't notice. The friends at the back point at the llama and crack up laughing. Natural, loose movement, not in sync. Real-time speed. No cuts. No text, no speech bubbles. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "shira_young",
+     "text": "[shouting] !מארס",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli woman about 22, native Hebrew, loud and triumphant. This line: slamming a backgammon piece down, shouting in victory. Native Hebrew. Pronounced 'Mars!' (A double win!)",
+     "at": 0.5,
+     "mix": "clear"
+    },
+    {
+     "who": "trip_friend",
+     "text": "!אחי, עוד אחד",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli guy about 22, native Hebrew, dramatic, falling back in defeat, half laughing half whining. Native Hebrew. Pronounced 'Achi, od echad!' (Bro, one more!)",
+     "at": 2.2,
+     "mix": "clear"
+    },
+    {
+     "who": "shira_young",
+     "text": "!מישראל",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli woman about 22, native Hebrew, proud and grinning. This line: proud, big smile, to a curious tourist. Native Hebrew. Pronounced 'Mi-Yisrael!' (From Israel!)",
+     "at": 4.7,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "high mountain wind, open air, distant birds",
+     "duration": 8,
+     "at": 0,
+     "volume": 0.35
+    },
+    {
+     "prompt": "a loud comedic wooden WHACK of a backgammon piece slammed on a wooden board, dice rattling, a group of friends cheering and screaming",
+     "duration": 2.5,
+     "at": 0.4,
+     "volume": 0.7
+    },
+    {
+     "prompt": "a crinkly plastic snack bag being grabbed and pulled away, then friends bursting out laughing",
+     "duration": 2.5,
+     "at": 6.0,
+     "volume": 0.6
+    },
+    {
+     "prompt": "one sharp loud referee whistle blast from a distance",
+     "duration": 1,
+     "at": 7.5,
+     "volume": 0.6
+    }
+   ]
+  },
+  {
+   "id": "12b-amazon",
+   "path": "shira",
+   "place_refs": [
+    "amazon"
+   ],
+   "characters": [
+    "shira_young",
+    "lena_soldier",
+    "noam_soldier"
+   ],
+   "image_prompt": "A single wide 16:9 scene illustration in the exact same 2D doodle style as @Image1: clean confident dark ink outlines, bright flat colors with light marker texture, minimal flat shading, soft paper feel. The SAME people as @Image1: Shira (frizzy curly ponytail, light-blue hair tie, gold chai, white tank top), Noam (Ethiopian-Israeli, round glasses, scruffy beard), Lena (blond braid), the curly guy in the red bandana and the girl in the beige bucket hat, all grown adults with full adult height and proportions. Medium-wide shot at eye level on the upper deck of an old wooden cargo riverboat tied up at the jungle bank of the Amazon, midday. Bright striped hammocks hung close together under a rusty tin roof. Brown river and thick green jungle behind, a few red, blue and yellow macaws in the sky. Front left: Shira sitting up in her hammock by the wooden railing, her light-blue fleece draped over the edge of the hammock. A thick jungle branch hangs over the railing right next to her head, and on it a plump, bright-green cartoon tree boa snake, coiled, sleepy eyes, big and simple, clearly a snake, its face very close to Shira's face, she hasn't noticed yet. Middle, in the next hammock: Noam lying back with eyes closed, faded orange t-shirt, hugging a brand-new bag of Bamba to his chest like a teddy bear (dark navy bag, red oval Osem logo, cartoon baby mascot in a light-blue diaper). Middle back: Lena in a hammock, grey t-shirt, reading a fat paperback book with a blank cover. Back right: the bandana guy and the bucket-hat girl, each half asleep in a hammock. Back right: a cracked wooden roof post wrapped in a LOT of silver duct tape, and next to it a Peruvian deckhand, a grown adult man, holding a big roll of silver duct tape. VERY colorful. No text, no speech bubbles.",
+   "video_prompt": "2D hand-drawn doodle animation of the start frame. Camera locked-off at eye level, no camera move, no zoom. Throughout the clip, a few red, blue and yellow macaws fly across the sky behind the boat from left to right. 0 to 2.5 seconds: the young woman with the big frizzy ponytail in the front left turns her head, sees the green snake's face right next to hers, and jerks back so hard her hammock swings out over the deck, eyes wide, shouting. 2.5 to 5 seconds: the man with glasses in the middle hammock keeps his eyes closed and lazily waves one hand, still hugging his snack bag, saying something relaxed. In the back, the deckhand slowly wraps one more strip of silver tape around the post, totally calm. 5 to 8 seconds: the snake opens its mouth in a huge, slow yawn right at the young woman. She looks at the snake, then at the man with glasses, and bursts out laughing. The two friends at the back laugh softly in their hammocks. The blond woman keeps reading and turns a page. Natural, loose movement, not in sync. Real-time speed. No cuts. No text, no speech bubbles. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "shira_young",
+     "text": "[shouting] !וואלה, נחש",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli woman about 22, native Hebrew. This line: startled, jerking back, half yelling, half laughing. Native Hebrew. Pronounced 'Walla, nachash!' (Whoa, a snake!)",
+     "at": 1.0,
+     "mix": "clear"
+    },
+    {
+     "who": "trip_friend",
+     "text": "תירגעי, הוא ישן.",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli guy about 22, native Hebrew, totally relaxed, half asleep, eyes closed, lazy and drawn out. Native Hebrew. Pronounced 'Tirag'i, hu yashen.' (Relax, he's asleep.)",
+     "at": 3.0,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "jungle river ambience, slow brown river water, a diesel boat motor idling, macaws squawking overhead, hammock ropes creaking",
+     "duration": 8,
+     "at": 0,
+     "volume": 0.45
+    },
+    {
+     "prompt": "a young woman and two friends bursting out laughing",
+     "duration": 2.5,
+     "at": 5.8,
+     "volume": 0.6
+    }
+   ]
+  },
+  {
+   "id": "12k-bangkok",
+   "path": "cut",
+   "place_refs": [
+    "bangkok"
+   ],
+   "characters": [
+    "shira_young"
+   ],
+   "image_prompt": "Medium shot at eye level at night on Khao San Road in Bangkok: a busy street glowing with bright neon signs in pink, blue and green, all plain, with no readable text, strings of lights overhead. Screen right: a smiling street-food vendor in an apron, drawn simply, behind a cart with a sizzling wok of noodles and a tray of mango with sticky rice. Screen left: Shira, twenty-two (an Israeli woman about twenty-two with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair piled in a big messy bun, a clearly grown-up young woman's face, soft and natural, with long lashes and fuller lips, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a plain white tank top, baggy patterned elephant-print Thai pants and brown hiking strap sandals, with a huge backpack with a small plain blue-and-white Israeli flag patch), holding up both open hands, mid-haggle, grinning. Behind her, two Israeli backpackers drawn simply, laughing. Warm neon light and the cart's hanging bulb on their faces.",
+   "video_prompt": "At about 1 second the young woman in the elephant-print pants says a few words, both hands up, all ten fingers spread. The smiling vendor laughs. Camera: locked-off at eye level. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 5,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "shira_young",
+     "text": "Achi, ten baht, tachles!",
+     "lang": "en",
+     "voice_hint": "Voice: Woman about 22, Israeli, light Israeli accent in English, low-ish warm voice, quick, bossy and funny. This line: playful haggling, mock-serious. 'Achi' means 'bro', 'tachles' means 'final offer'",
+     "at": 1.0,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "busy night market street, sizzling wok, scooters, music from bars far away, people chatting in many languages",
+     "duration": 5,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "12kb-island",
+   "path": "cut",
+   "place_refs": [
+    "thai-island"
+   ],
+   "characters": [
+    "shira_young"
+   ],
+   "image_prompt": "Wide shot at eye level at night on a Thai island beach: soft sand, gentle waves, palm trees, a big round moon. At the water's edge, two fire dancers drawn simply swing glowing fire poi in slow circles. In front of them, a big circle of young Israeli backpackers in t-shirts and shorts, drawn simply, dancing with their arms up. In the middle of the circle: Shira, twenty-two (an Israeli woman about twenty-two with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair piled in a big messy bun, a clearly grown-up young woman's face, soft and natural, with long lashes and fuller lips, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing a plain white tank top, baggy patterned elephant-print Thai pants and brown hiking strap sandals, with a huge backpack with a small plain blue-and-white Israeli flag patch), laughing, arms up. Warm orange glow from the fire poi, cool blue moonlight on the sand.",
+   "video_prompt": "The two fire dancers swing their glowing poi in slow circles, leaving bright orange arcs of light. In the middle of the circle the young woman in the elephant-print pants dances, laughing, arms up. Camera: slow push-in toward her. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 5,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [],
+   "sfx": [
+    {
+     "prompt": "night beach, gentle waves, upbeat music from a beach speaker, friends cheering and clapping, the whoosh of fire poi",
+     "duration": 5,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "13-campus",
+   "path": "both",
+   "place_refs": [
+    "tau"
+   ],
+   "characters": [
+    "shira_24",
+    "omer_24"
+   ],
+   "image_prompt": "Medium two-shot at eye level, early morning at a weekend student hackathon in a modern hall at Tel Aviv University: big windows with palm trees and the first blue light of dawn outside, string lights. One long shared table between two rival teams, covered in laptops, open pizza boxes, a tray of pastries and unlabeled cans, all plain, with no readable text. Screen right: Shira, twenty-four (an Israeli woman about twenty-two with olive-tan Mediterranean skin, very thick frizzy dark brown curly-wavy hair, thick dark eyebrows, dark brown almond eyes, a slightly prominent nose and freckles, her hair piled in a big messy bun, a clearly grown-up young woman's face, soft and natural, with long lashes and fuller lips, and a small gold chai pendant (a simple Jewish good-luck symbol) on a thin gold chain, wearing an oversized mustard-yellow t-shirt, black jeans with rolled cuffs and white canvas sneakers), sitting, arms crossed, eyebrows raised, her laptop open in front of her showing soft abstract colored blocks. Screen left, across the table on the rival side: Omer, twenty-four (an Israeli man about twenty-two with olive-tan Mediterranean skin, thick dark curly hair, thick dark eyebrows, dark brown almond eyes and a slightly prominent nose, clean-shaven, a friendly grin and a small silver Star of David pendant on a thin chain, wearing a grey hoodie with the sleeves pushed up, dark jeans and black sneakers), standing up from his chair, gripping its back, tired, about to give in. Teammates drawn simply at each end of the table, half asleep. Cool dawn light from the windows mixed with warm string lights.",
+   "video_prompt": "At about 2 seconds the curly-haired young man in the grey hoodie says a few words, then drags his chair around the end of the table and sits right beside the young woman in the mustard-yellow t-shirt. She grins. Camera: slow push-in toward the two of them. Real-time speed. No cuts. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "omer_young",
+     "text": "תכלס, שלך יותר טוב.",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli man about 24, native Hebrew, tired after an all-nighter, giving in with a grin. This line: a sigh, then a smile. Native Hebrew. Pronounced 'Tachles, shelach yoter tov.' (Bottom line, yours is better.)",
+     "at": 2.5,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "late-night hackathon, keyboards clacking, people arguing over each other in Hebrew and English, a burst of laughter",
+     "duration": 5,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "14-apartment",
+   "path": "both",
+   "place_refs": [
+    "tel-aviv"
+   ],
+   "characters": [
+    "shira_adult",
+    "omer_adult",
+    "lena_adult",
+    "noam_soldier"
+   ],
+   "image_prompt": "A single wide 16:9 scene illustration in the exact same 2D doodle style as @Image1: clean confident dark ink outlines, bright flat colors with light marker texture, minimal flat shading, soft paper feel. Shira, Noam and Lena are EXACTLY the same people as in @Image1 (Shira: frizzy curly hair, freckles, gold chai; Noam: Ethiopian-Israeli with round glasses; Lena: long blond braid), now five years older, about twenty-seven, grown adults with full adult height and proportions. Omer is EXACTLY the curly-haired boy with the silver Star of David necklace from @Image2, now grown up to twenty-seven: a GROWN ADULT man with full adult height and proportions, thick black curly hair, light stubble, silver Star of David on a thin chain, plain black t-shirt, jeans, barefoot. Medium-wide shot at eye level, a tiny Tel Aviv apartment living room at night, warm lamp light. A big white whiteboard leans against a plain white wall, BIG in frame, center-right, with ONE small neat blue circle drawn on it and nothing else, no writing, no letters. A white AC unit high on the wall. Standing right next to the whiteboard: Shira in a loose off-white linen shirt over a light-blue tank top, jeans, frizzy curly hair up in a bun with a light-blue hair tie, gold chai necklace, holding a blue marker, pleased with her small circle. Left: a saggy couch. Omer sprawled on it, feet up on the coffee table like he lives there, holding a fat red marker. Next to him on the couch: Noam with short neat beard, glasses, orange t-shirt, holding a big foil-wrapped shawarma. Back right at a small table: Lena in a dark-green t-shirt, typing on a laptop with a plain glowing screen, not looking up. Two laptops and foil wrappers on the table. Far right: an open balcony door with white Tel Aviv rooftops and a few lit windows at night, and on the balcony rail a skinny street cat sitting, staring at Noam's shawarma. VERY colorful. No text, no letters anywhere, no speech bubbles.",
+   "video_prompt": "2D hand-drawn doodle animation of the start frame. Camera at eye level with a slow, gentle push-in toward the whiteboard. 0 to 2 seconds: the young woman with the frizzy bun steps back from her small blue circle, pleased. The curly-haired man on the couch jumps up, red marker raised, and says something excited. 2 to 5.5 seconds: the curly-haired man draws ONE huge red circle around her small blue circle in one big sweeping whole-arm motion; the red line goes off the edges of the whiteboard and continues onto the white wall behind it, making a giant red circle. The red line follows the tip of his marker. The young woman stares, mouth open. Only two circles, no writing, no letters. 5.5 to 8 seconds: the blond woman at the laptop looks up for the first time and stares flatly at the red line on the wall. The young woman slowly smiles at the giant circle. The man with glasses laughs into his shawarma. On the balcony rail, the cat slowly reaches one paw toward the shawarma. Natural, loose movement, not in sync. Real-time speed. No cuts. No text, no speech bubbles. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "omer_adult",
+     "text": "!לא, לא. ככה",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli man about 27, native Hebrew, excited, jumping up off the couch. Native Hebrew. Pronounced 'Lo, lo. Kacha!' (No, no. Like this!)",
+     "at": 1.0,
+     "mix": "clear"
+    },
+    {
+     "who": "lena_adult",
+     "text": "...הפיקדון",
+     "lang": "he",
+     "voice_hint": "Voice: Russian-Israeli woman about 27, native Hebrew, totally flat and deadpan, quiet, staring at the wall. Native Hebrew. Pronounced 'Ha-pikadon...' (The deposit...)",
+     "at": 5.0,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "quiet small apartment at night, air conditioner hum, a scooter buzzing past on the street below",
+     "duration": 8,
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "prompt": "one long squeaky marker stroke on a whiteboard that turns scratchier as it goes onto a painted wall",
+     "duration": 3,
+     "at": 2.3,
+     "volume": 0.7
+    },
+    {
+     "prompt": "a man laughing with his mouth full, foil wrapper crinkling",
+     "duration": 1.5,
+     "at": 6.1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "15-fail",
+   "path": "both",
+   "place_refs": [
+    "tel-aviv-beach"
+   ],
+   "characters": [
+    "shira_adult",
+    "omer_adult",
+    "lena_adult",
+    "noam_soldier"
+   ],
+   "image_prompt": "A single wide 16:9 scene illustration in the exact same 2D doodle style as @Image1: clean confident dark ink outlines, bright flat colors with light marker texture, minimal flat shading, soft paper feel. Shira, Omer, Noam and Lena are EXACTLY the same four people as in @Image1, same faces, same hair, same clothes (Shira: frizzy curly bun with a light-blue hair tie, off-white linen shirt over a light-blue tank top, gold chai; Omer: thick black curls, silver Star of David, black t-shirt, jeans rolled up, barefoot; Noam: glasses, short beard, orange t-shirt; Lena: long blond braid, dark-green t-shirt), all grown adults with full adult height and proportions. A Tel Aviv beach at golden hour, just before sunset, VERY colorful, exactly like the real Tel Aviv waterfront: behind the beach, the long promenade with palm trees, a row of tall white beachfront hotels, a small marina full of white sailboats behind a stone breakwater, and modern glass skyscrapers further back, all glowing warm gold and orange in the low sun (no signs, no text). An orange-gold sky with soft pink clouds, a turquoise sea with gold reflections, an empty wooden lifeguard tower. Camera low in the sand, eye level with people sitting. The four friends sit in a loose row in the sand, quiet and a bit sad after a failure, long golden shadows on the sand: left, Omer sitting with shoulders down; middle, Shira with her knees up; right, Lena holding a big brown paper bag of sunflower seeds, and Noam leaning back on his elbows. Two wooden matkot paddles lie in the sand in front of them. Mid-ground on the left, clearly visible and medium size, in the golden light: two shirtless tanned Israeli guys in swim shorts in the middle of an intense matkot rally, wooden paddles raised, the small rubber ball in the air between them. Far back on the right near the lifeguard tower, small: an old Tel Aviv man in shorts and a bucket hat sweeping a metal detector over the sand. No text, no speech bubbles.",
+   "video_prompt": "2D hand-drawn doodle animation of the start frame. Camera locked-off, eye level, no camera move. Golden hour light. Gentle waves roll in the whole time and the two matkot players in the mid-ground on the left keep hitting the ball back and forth in a fast, natural rally. 0 to 3 seconds: quiet, the friends sit still and sad. The blond woman cracks a seed with her teeth and flicks the shell away, deadpan. The old man with the metal detector slowly shuffles along in the back. 3 to 5 seconds: the curly-haired man on the left slaps his knees, stands up in one natural motion and says something short and decided. 5 to 8 seconds: he turns and runs toward the sea, kicking up sand. The young woman with the frizzy bun and the blond woman look at each other, surprised. The man with glasses sits up. Natural, loose, realistic movement, not in sync. Real-time speed. No cuts. No text, no speech bubbles. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "omer_adult",
+     "text": "טוב. מתחילים מחדש מחר.",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli man about 27, native Hebrew, tired but steady. This line: slaps his knees, a breath out, then calm and decided. Native Hebrew. Pronounced 'Tov. Matchilim mechadash machar.' (Okay. We start over tomorrow.)",
+     "at": 4.3,
+     "mix": "clear"
+    },
+    {
+     "who": "lena_adult",
+     "text": "הוא לא נורמלי.",
+     "lang": "he",
+     "voice_hint": "Voice: Russian-Israeli woman about 27, native Hebrew, dry and deadpan but secretly impressed. Native Hebrew. Pronounced 'Hu lo normali.' (He's not normal.)",
+     "at": 11.2,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "gentle waves on a Tel Aviv city beach at night, faint distant music from the promenade, wooden matkot paddles going tak tak tak far away",
+     "duration": 12,
+     "at": 0,
+     "volume": 0.45
+    },
+    {
+     "prompt": "one sunflower seed cracked between teeth, close and crisp",
+     "duration": 1,
+     "at": 2.0,
+     "volume": 0.6
+    },
+    {
+     "prompt": "two short electronic beeps from a metal detector in the distance",
+     "duration": 1,
+     "at": 6.5,
+     "volume": 0.5
+    },
+    {
+     "prompt": "a big water splash in the sea at night, then a group of friends bursting out laughing and one person clapping",
+     "duration": 3.5,
+     "at": 9.8,
+     "volume": 0.7
+    }
+   ],
+   "clip_b": {
+    "model": "Seedance 2.0, 5s (Veo 3.1 Lite failed the flip twice)",
+    "image_prompt": "A single wide 16:9 scene illustration in the exact same 2D doodle style as @Image1, the same Tel Aviv beach at golden hour from @Image1, VERY colorful: the marina, white beachfront hotels and glass towers glowing gold, an orange-gold sky, a turquoise sea with gold reflections, the same wooden lifeguard tower. Same camera angle as @Image1. In the foreground on the left, seen from behind, the woman with the frizzy curly bun and light-blue hair tie sitting in the sand; on the right, the man with glasses in the orange t-shirt leaning back on his elbows and the woman with the long blond braid in the dark-green t-shirt holding a paper bag. In the background, in the SAME spots as in @Image1 and still clearly visible but smaller than him: the two shirtless guys playing matkot on the left, and the old man in a bucket hat with the metal detector near the lifeguard tower. In the middle distance, medium-small in frame, the curly-haired man in the black t-shirt and rolled-up jeans standing knee-deep in the shallow golden waves, about to jump. Everyone is a grown adult with full adult height and proportions. No text, no speech bubbles.",
+    "video_prompt": "2D hand-drawn doodle animation of the start frame. Camera locked-off, no camera move, no zoom. 0 to 1 second: the curly-haired man in the shallow water bends his knees. 1 to 2.5 seconds: he jumps and does one clean, athletic backflip, tucked tight, correct human body proportions, keeping his black t-shirt on, and lands feet-first in a big white splash in the knee-deep water, then stands up with both arms raised. In the background the two matkot players keep rallying and the old man keeps sweeping his metal detector the whole time. 2.5 to 5 seconds: in the foreground, the woman with the frizzy bun falls back into the sand laughing, the man with glasses claps, the blond woman shakes her head with a small smile. Natural, realistic movement. Real-time speed. No cuts. No text. Keep the flat 2D style of the first frame."
+   }
+  },
+  {
+   "id": "16-exit",
+   "path": "both",
+   "place_refs": [
+    "tel-aviv"
+   ],
+   "characters": [
+    "shira_adult",
+    "omer_adult",
+    "lena_adult",
+    "noam_soldier"
+   ],
+   "image_prompt": "A single wide 16:9 scene illustration in the exact same 2D doodle style as @Image1: clean confident dark ink outlines, bright flat colors with light marker texture, minimal flat shading, soft paper feel. Shira, Omer, Noam and Lena are EXACTLY the same four people as in @Image1, same faces and hair, now a few years older, about thirty-five, grown adults with full adult height and proportions (Shira: frizzy curly bun with a light-blue hair tie, off-white linen shirt over a light-blue tank top, gold chai; Omer: thick black curls, silver Star of David, black t-shirt; Noam: glasses, short neat beard, orange short-sleeve button shirt; Lena: long blond braid, dark-green t-shirt). Medium-wide shot at eye level inside a bright, calm Tel Aviv startup office at midday: big windows with the sea and white towers behind (no signs, no text), plants, wooden desks with laptops showing plain soft color blocks (no text). About eight coworkers, all grown adults of different looks, quietly working at their desks, each in a different natural pose. Center: Shira sitting at her desk at a laptop, her phone face-down on the desk next to her. Omer leaning on the edge of her desk, talking to her casually, holding a coffee cup. Right: Noam at his desk, just setting down a plate with one big pita on the desk edge. Under his desk, a scruffy brown office dog lying down, eyes on the plate. Back left: Lena at her desk wearing big over-ear headphones, typing, focused. Back: a long table with a big hummus bowl, a stack of pitas, salads, and an open bag of Bamba (dark navy bag, red oval Osem logo, cartoon baby mascot in a light-blue diaper). Calm, normal workday mood. VERY colorful. No text, no speech bubbles.",
+   "video_prompt": "2D hand-drawn doodle animation of the start frame. Camera locked-off, eye level, no camera move. 0 to 3 seconds: a calm normal workday, coworkers typing and moving a little, each at their own pace. The man with curls leaning on her desk chats and sips his coffee. 3 to 5 seconds: the phone on the young woman's desk buzzes; she picks it up, answers, listens, and her face freezes in shock. The man with curls stops mid-sip. 5 to 8 seconds: she jumps up from her chair, phone in hand, and shouts. The office erupts: coworkers stand up and cheer at different moments and in different ways, some throw their arms up, some cover their mouths, one claps. The man with curls drops the cup on the desk and hugs her. The man with glasses throws both arms up. The blond woman in the back slowly takes off one headphone and looks over, confused. Natural, loose, realistic movement, never in sync, correct body proportions. Real-time speed. No cuts. No text, no speech bubbles. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Veo 3.1 or Gemini Omni Flash",
+   "voice_lines": [
+    {
+     "who": "shira_adult",
+     "text": "[shouting] !עשינו אקזיט",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli woman about 35, native Hebrew, jumping up from her chair, screaming with joy, total disbelief. Native Hebrew. Pronounced 'Asinu exit!' (We got the exit!)",
+     "at": 5.3,
+     "mix": "clear"
+    },
+    {
+     "who": "lena_adult",
+     "text": "...מה?",
+     "lang": "he",
+     "voice_hint": "Voice: Russian-Israeli woman about 35, native Hebrew, flat, confused, taking off one headphone. Native Hebrew. Pronounced 'Ma?' (What?)",
+     "at": 7.2,
+     "mix": "clear"
+    },
+    {
+     "who": "omer_adult",
+     "text": "!יאללה, יותר גבוה",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli man about 35, native Hebrew, yelling up at someone lifted in a chair, laughing, wedding energy. Native Hebrew. Pronounced 'Yalla, yoter gavoha!' (Come on, higher!)",
+     "at": 8.2,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "quiet open-plan office, soft keyboard typing, a distant coffee machine",
+     "duration": 5.5,
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "prompt": "a phone vibrating on a wooden desk, buzz buzz",
+     "duration": 1.5,
+     "at": 2.2,
+     "volume": 0.6
+    },
+    {
+     "prompt": "an office crowd suddenly erupting in cheers and screams, chairs rolling back, a party popper",
+     "duration": 3,
+     "at": 5.7,
+     "volume": 0.65
+    },
+    {
+     "prompt": "a happy office crowd clapping in rhythm and chanting mazal tov, mazal tov, wedding style celebration",
+     "duration": 5,
+     "at": 8.6,
+     "volume": 0.6
+    }
+   ],
+   "clip_b": {
+    "model": "Seedance 2.0, 5s",
+    "image_prompt": "A single wide 16:9 scene illustration in the exact same 2D doodle style as @Image1: clean confident dark ink outlines, bright flat colors with light marker texture, minimal flat shading, soft paper feel. The SAME office, the SAME people and the SAME clothes as @Image1, same camera angle. Desks pushed aside. Center: the young woman with the frizzy curly bun and light-blue hair tie is ALREADY lifted high in the air sitting in a simple black office chair, wedding style, arms up, phone in one hand with the screen facing away, laughing. Four coworkers, grown adults with full adult height, hold the chair up with their hands clearly on the chair legs and armrests; the man with black curls and the silver Star of David is the front-left lifter, laughing up at her. Around them, other coworkers cheering and clapping, each in a different pose. Front right, a little apart from the crowd: the blond woman with the braid standing at the hummus table holding a pita. Back right: the man with glasses in the orange button shirt clapping; his plate with one big pita sits on the desk edge next to him, and the scruffy brown office dog sits right below it, staring at it. A few balloons. VERY colorful. No text, no speech bubbles.",
+    "video_prompt": "2D hand-drawn doodle animation of the start frame. Camera locked-off, no camera move. 0 to 2.5 seconds: the four lifters bounce the chair gently up twice, wedding style; the young woman grabs the armrest, laughing and screaming. The man with curls at the front left shouts up at her. The crowd cheers and claps, each person at their own rhythm. 2.5 to 5 seconds: the chair settles. Front right, the blond woman calmly dips her pita in the hummus, takes a bite, and raises the pita toward the camera like a toast. Behind her, the brown dog grabs the pita off the plate on the desk and trots away with it in its mouth; the man with glasses keeps clapping and doesn't notice. Natural, loose, realistic movement, never in sync, correct body proportions, hands stay on the chair. Real-time speed. No cuts. No text. Keep the flat 2D style of the first frame."
+   }
+  },
+  {
+   "id": "17-mentor",
+   "path": "both",
+   "place_refs": [
+    "tel-aviv"
+   ],
+   "characters": [
+    "shira_adult",
+    "little_girl",
+    "dalia_teacher"
+   ],
+   "image_prompt": "A single wide 16:9 scene illustration in the exact same 2D doodle style as @Image1: clean confident dark ink outlines, bright flat colors with light marker texture, minimal flat shading, soft paper feel. The SAME kibbutz classroom as @Image1, same big windows and same layout, a bit more modern now with a blank dark smartboard on the wall (no text). Morning light. Through the window, the old kibbutz water tower and green trees. Right, sitting on the edge of the teacher's desk: Shira, EXACTLY the curly-haired woman from @Image2 (same face, freckles, frizzy curly hair, gold chai necklace), now about forty: a GROWN ADULT with full adult height and proportions, a few clear grey strands in her curly bun, reading glasses pushed up into her hair, a light-blue linen shirt, jeans, mid-story with one hand open, warm smile. Left, front row desk: a little girl about six, a big cloud of dark curls with a yellow headband, a red t-shirt and denim overalls, listening. Other kids about six to seven sitting at small desks with plain sandwich boxes and small snack bags, listening, each in a different pose. Back row: a boy holding one puffy peanut snack halfway to his mouth, frozen, listening. Back corner by the door, standing: the teacher Dalia from @Image1, now in her early eighties, a GROWN ADULT with full adult height and proportions, short white hair, glasses on a cord, a kind face, smiling quietly. VERY colorful. No text, no letters, no speech bubbles.",
+   "video_prompt": "2D hand-drawn doodle animation of the start frame. Camera slow gentle push-in toward the little girl in the front row. 0 to 2.5 seconds: the woman on the desk is telling a story with one hand open. The little girl with the yellow headband shoots her hand straight up and shouts a one-word question. 2.5 to 5 seconds: the woman stops and points at the girl with both hands, delighted, laughing. In the back corner, the old white-haired teacher's smile gets bigger. 5 to 8 seconds: the woman leans toward the girl and says a short warm sentence. The old teacher gives one small proud nod. The boy in the back row finally pops the snack into his mouth and chews. The other kids move a little, each at their own pace, never in sync. Natural, realistic movement, correct proportions. Real-time speed. No cuts. No text, no speech bubbles. Keep the flat 2D style of the first frame: same even ink outlines, same flat colors.",
+   "end_frame_prompt": null,
+   "duration": 8,
+   "aspect": "16:9",
+   "manual_model_hint": "Gemini Omni Flash or Runway Gen-4.5 (fallback: Kling 3.0 via fal)",
+   "voice_lines": [
+    {
+     "who": "little_girl",
+     "text": "[shouting] !למה",
+     "lang": "he",
+     "voice_hint": "Voice: Real child voice, girl about 6, Israeli, native Hebrew. Blurting it out, hand shooting up, curious and a little impatient. Must sound like an actual small kid. Pronounced 'Lamah?!' (Why?!)",
+     "at": 2.0,
+     "mix": "clear"
+    },
+    {
+     "who": "shira_adult",
+     "text": "שאלה מצוינת. בואי נחשוב.",
+     "lang": "he",
+     "voice_hint": "Voice: Israeli woman about 40, native Hebrew, warm, delighted, leaning in to a little kid, gentle and encouraging. Native Hebrew. Pronounced 'She'elah metzuyenet. Bo'i nachshov.' (Great question. Let's think.)",
+     "at": 5.2,
+     "mix": "clear"
+    }
+   ],
+   "sfx": [
+    {
+     "prompt": "a kibbutz classroom of young kids in the morning, soft chatter, snack bags crinkling, birds chirping outside the open window",
+     "duration": 8,
+     "at": 0,
+     "volume": 0.35
+    },
+    {
+     "prompt": "one small crunchy bite of a crispy puffed snack, close, cute",
+     "duration": 1,
+     "at": 7.2,
+     "volume": 0.6
+    }
+   ]
+  }
+ ]
+}
