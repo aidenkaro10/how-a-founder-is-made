@@ -385,3 +385,14 @@ main { position: relative; z-index: 2; }
 #ending a { color: var(--blue); }
 .replay { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--paper); background: var(--ink); border: 0; border-radius: 999px; padding: 12px 20px; cursor: pointer; }
 .replay:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+
+/* ---------- sound gate (first click unlocks sound) ---------- */
+#soundGate {
+  position: fixed; inset: 0; z-index: 90; cursor: pointer;
+  display: grid; place-content: center; gap: 12px; text-align: center;
+  background: rgba(251, 248, 241, 0.86); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  color: #3a4a6b; transition: opacity .7s ease;
+}
+#soundGate .hand { margin: 0; font-family: 'Patrick Hand', cursive; font-size: clamp(34px, 3.4vw, 52px); }
+#soundGate p { margin: 0; font-size: 17px; letter-spacing: 0.02em; }
+#soundGate.gone { opacity: 0; pointer-events: none; }

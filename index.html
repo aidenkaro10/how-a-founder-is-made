@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Patrick+Hand&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/site.css?v=20261010230000">
 <script type="importmap">
 { "imports": {
   "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
@@ -24,6 +24,12 @@
 <div id="laptopOnly">
   <p class="hand">This one's made for a laptop.</p>
   <p>Open it on a computer, turn the sound on, and press play.</p>
+</div>
+
+<!-- 0. Sound gate: browsers only allow sound after a click, so the first click starts the opening song -->
+<div id="soundGate" role="button" tabindex="0" aria-label="Click to begin with sound">
+  <p class="hand">Turn your sound on.</p>
+  <p>Click anywhere to begin.</p>
 </div>
 
 <!-- 1. The vault opening (js/vault.js draws into this) -->
@@ -59,6 +65,6 @@
   </section>
 </main>
 
-<script type="module" src="js/main.js"></script>
+<script type="module" src="js/main.js?v=20261010230000"></script>
 </body>
 </html>

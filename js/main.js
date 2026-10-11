@@ -804,8 +804,15 @@ async function startOpening() {
     setTimeout(() => { container.remove(); vault?.destroy?.(); }, 1200);
   };
   let vault = null;
-  // first click or key on the opening page starts the song (only once)
-  const kick = () => { startIntroSong(); removeEventListener('pointerdown', kick, true); removeEventListener('keydown', kick, true); };
+  // the sound gate: one click (or key) unlocks sound and starts the opening song
+  const gate = $('#soundGate');
+  const kick = (e) => {
+    startIntroSong();
+    if (gate) { gate.classList.add('gone'); setTimeout(() => gate.remove(), 800); }
+    if (e && e.target === gate) e.stopPropagation();       // the gate click shouldn't also click the diary
+    removeEventListener('pointerdown', kick, true); removeEventListener('keydown', kick, true);
+  };
+  if (gate) { gate.addEventListener('pointerdown', kick); gate.addEventListener('keydown', kick); }
   addEventListener('pointerdown', kick, true);
   addEventListener('keydown', kick, true);
 
@@ -814,10 +821,10 @@ async function startOpening() {
   // so reloading after that starts from the beginning again.
   const hash = location.hash.slice(1);
   if (location.hash) history.replaceState(null, '', location.pathname + location.search);
-  if (hash === 'skip') return finish('shira');
+  if (hash === 'skip') { $('#soundGate')?.remove(); return finish('shira'); }
 
   try {
-    const mod = await import('./vault.js');
+    const mod = await import('./vault.js' + new URL(import.meta.url).search);
     vault = mod.mountVault({
       container,
       paths: [
