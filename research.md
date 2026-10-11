@@ -50,6 +50,14 @@ In 1993 the government launched Yozma. It put in $100 million to back ten new pr
 
 That foreign money ties into one more thing. Israel's home market is tiny, so startups are "born global" and aim at the U.S. and Europe from day one [28].
 
+## Big tech, the US, and universities
+
+**Big tech moved in.** Intel opened a small development center in Haifa in 1974, its first outside the US [36]. Microsoft followed in 1991 with its first R&D center outside the US, also in Haifa. Bill Gates said it started because Israeli engineers at Microsoft wanted to move home [37]. By 2024, Startup Nation Central counted 434 multinational R&D centers in Israel. They employ about a third of the country's tech workforce and account for 40% of its R&D spending [38].
+
+**The US connection.** The US and Israel set up the BIRD Foundation in 1977 with $60 million, $30 million from each country, to fund joint projects between American and Israeli companies [39]. BIRD says it has approved close to 1,200 projects, with more than $10 billion in sales; other sources put it around 1,000 projects [40]. In 1985 Israel signed the first free trade agreement the US ever made [41]. About 111 Israeli companies were listed on Nasdaq as of January 2025 [42].
+
+**From lab to company.** The Weizmann Institute set up Yeda in 1959 [27], and Hebrew University set up Yissum in 1964 [43]. Copaxone, Teva's multiple sclerosis drug, was discovered at Weizmann by Michael Sela and Ruth Arnon and licensed to Teva through Yeda [44]. Hebrew University research also gave the world long-life cherry tomatoes, plus the Alzheimer's drug Exelon and the cancer drug Doxil [43].
+
 ## Results
 
 Israel spent 6.8% of GDP on R&D in 2024, the highest in the OECD, where the average is 2.7% [4]. The exits are huge. Google bought Waze in 2013 for a reported $1.1 billion [29]. Intel bought Mobileye in 2017 for about $15.3 billion [30]. In March 2026, Google closed its $32 billion deal for Wiz, the biggest exit in Israeli history [11]. In 2025, Israeli startups raised about $15.6 billion and M&A deals added up to $74.3 billion [3].
@@ -91,3 +99,12 @@ Israel spent 6.8% of GDP on R&D in 2024, the highest in the OECD, where the aver
 33. IDF, "What is Yom HaZikaron and how does Israel observe it?" https://www.idf.il/en/mini-sites/our-soldiers/what-is-yom-hazikaron-and-how-does-israel-observe-it/
 34. Wikipedia, "Netafim." https://en.wikipedia.org/wiki/Netafim
 35. Israeled, "Drip irrigation is invented by Netafim" (Aug 8, 1965). https://israeled.org/timeline/drip-irrigation-is-invented-by-netafim/
+36. Intel Israel, "About Intel Israel." https://www.intel.com/content/www/il/he/company-overview/intel-in-israel.html and Calcalist, "How Intel Israel Development Center became a global chip development center." https://calcalistech.com/ctech/articles/0,7340,L-3929001,00.html
+37. Times of Israel, "Bill Gates: Israeli tech 'changing the world'" (2016). https://www.timesofisrael.com/bill-gates-israeli-tech-changing-the-world/
+38. Calcalist Tech with Startup Nation Central, "How 434 multinational R&D centers in Israel are shaping global tech" (Mar 2025). https://www.calcalistech.com/ctechnews/article/skmrzseo1x
+39. Wikipedia, "BIRD Foundation." https://en.wikipedia.org/wiki/BIRD_Foundation
+40. BIRD Foundation, "What is BIRD." https://projectsdb.birdf.com/what-is-bird/ and Israel Innovation Authority, "BIRD Israel-USA." https://innovationisrael.org.il/en/foundation/bird-israel-usa/
+41. USTR, "Israel." https://ustr.gov/countries-regions/europe-middle-east/middle-eastnorth-africa/israel and Wikipedia, "Israel–United States Free Trade Agreement." https://en.wikipedia.org/wiki/Israel%E2%80%93United_States_Free_Trade_Agreement
+42. Jewish Virtual Library, "Israeli Stocks Traded on Wall Street" (Jan 2025 update). https://www.jewishvirtuallibrary.org/israeli-stocks-traded-on-wall-street
+43. British Friends of the Hebrew University, "Innovation." https://www.bfhu.org/innovation/ and ISRAEL21c, "50 years of bringing brilliant ideas from lab to market." https://archive.israel21c.org/50-years-of-bringing-brilliant-ideas-from-lab-to-market/
+44. Globes, "Copaxone's inventors hope for improved treatment." https://en.globes.co.il/en/article-1000832876 and Weizmann Institute, "Technology Transfer." https://wis-wander.weizmann.ac.il/node/2862

@@ -673,6 +673,51 @@
       },
       {
         "style": "facts",
+        "tag": "Big tech moved in",
+        "title": "The numbers",
+        "photo": "clips/16-exit.jpg",
+        "headline": "The giants came to them.",
+        "lines": [
+          "Intel, Haifa, 1974: its first development center outside the US",
+          "Microsoft, Haifa, 1991: its first R&D center outside the US",
+          "434 global companies run R&D centers in Israel today",
+          "They employ about a third of Israel's tech workers"
+        ],
+        "dur": 8,
+        "source": false
+      },
+      {
+        "style": "facts",
+        "tag": "The US connection",
+        "title": "The numbers",
+        "photo": "clips/17-mentor.jpg",
+        "headline": "America was the partner.",
+        "lines": [
+          "1977: the US and Israel put $30M each into the BIRD Foundation",
+          "BIRD has backed about 1,000 joint US-Israeli projects, $10B+ in sales",
+          "1985: Israel got America's first ever free trade deal",
+          "About 110 Israeli companies trade on Nasdaq"
+        ],
+        "dur": 8,
+        "source": false
+      },
+      {
+        "style": "facts",
+        "tag": "From lab to company",
+        "title": "The numbers",
+        "photo": "clips/01k-classroom.jpg",
+        "headline": "Professors became founders.",
+        "lines": [
+          "1959: the Weizmann Institute starts Yeda, Israel's first tech transfer company",
+          "1964: Hebrew University starts Yissum",
+          "Copaxone, Teva's MS drug, started in a Weizmann lab",
+          "Long-life cherry tomatoes came out of Hebrew University too"
+        ],
+        "dur": 8,
+        "source": false
+      },
+      {
+        "style": "facts",
         "tag": "The exits",
         "title": "The numbers",
         "photo": "clips/05k-drip.jpg",
